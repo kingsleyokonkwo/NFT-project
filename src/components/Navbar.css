@@ -1,0 +1,154 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 40px;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: #1E2329;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 300px;
+    padding: 6px 10px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #35373E;
+}
+
+.nav-search img {
+    height: 19px;
+    width: 19px;
+    color: #fff;
+}
+
+.nav-input {
+    width: 100%;
+    border: none;
+    padding: .3rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+}
+
+.nav-input::placeholder {
+    color: #fff;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.verify {
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    background: #000;
+    border-radius: 8px;
+    margin-right: 20px;
+    height: 25px;
+}
+
+.verify img {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+.verify p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.diamond {
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 100px;
+    margin-right: 20px;
+    height: 27px;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+
+.diamond img {
+    height: 16px;
+    width: 16px;
+    background-color: #2C3137;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.notification {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    padding: 3px;
+    height: 27px;
+    margin-right: 20px;
+}
+
+.notification img {
+    height: 27px;
+    width: 27px;
+}
+
+.red {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    background-color: #F87171;
+    border-radius: 50%;
+    top: 5%;
+    right: 20%;
+}
+
+.eng {
+    display: flex;
+    align-items: center;
+}
+
+.eng img {
+    height: 15px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+}
+
+.eng p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 40px;
+    width: 40px;
+    margin-right: 4px;
+}
+
+.profile-detail {
+    line-height: .1;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.user-mail {
+    font-size: 12px;
+    font-weight: 400;
+}

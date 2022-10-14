@@ -1,23 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Navbar, Sidebar } from "./components";
+import { AdSuggestion, Cryptocurrency, DailyTask, Home, Logout, Rewards, Settings, Wallet } from "./pages";
+import "./App.css"
 
 function App() {
+
+  const [activeMenu, setActiveMenu] = useState(true)
+  const handleMenu = () => {
+    setActiveMenu((prevActiveMenu)=> !prevActiveMenu)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <BrowserRouter>
+        <div className="container">
+          {/* sidebar */}
+          <div>
+            {activeMenu ? (
+              <div className="sidebar">
+                <Sidebar handleMenu={handleMenu}/>
+              </div>
+            ) : (
+              <div>
+                {""}
+              </div>
+            )}
+          </div>
+          {/* nav and content */}
+          <div className="body">
+            <div>
+              <div className="navbar">
+                  <Navbar />
+              </div>
+
+            </div>
+
+            <div>
+              <Routes>
+                {/* pages */}
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/rewards" element={<Rewards />} />
+                <Route path="/daily-tasks" element={<DailyTask />} />
+                <Route path="/cryptocurrency" element={<Cryptocurrency />} />
+                <Route path="/wallet" element={<Wallet />} />
+                <Route path="/ad-suggestion" element={<AdSuggestion />} />
+                <Route path="/settings" element={<Settings />} />
+                <Route path="/logout" element={<Logout />} />
+              </Routes>
+            </div>
+          </div>
+
+        </div>
+
+
+      </BrowserRouter>
     </div>
   );
 }
