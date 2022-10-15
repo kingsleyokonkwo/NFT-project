@@ -1,0 +1,141 @@
+.cryto-container {
+    margin: 50px 40px;
+}
+
+.crypto-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.crypto-title h3 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-right: 28px;
+}
+
+.crypto-all, .crypto-watchlist {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 12px;
+    border-radius: 100px;
+    height: 43px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.crypto-all {
+    width: 48px;
+}
+
+.crypto-watchlist {
+    width: 100px;
+}
+
+.crypto-desc {
+    box-sizing: border-box;
+    background-color: #2c3137;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 19px 30px 22px;
+    border-radius: 16px;
+    height: 62px;
+    margin-bottom: 21px;
+}
+
+.hashtag {
+    margin-right: 90px;
+}
+
+.desc-name {
+    margin-right: 226px;
+}
+
+.desc-price {
+    margin-right: 100px;
+}
+
+.desc-24 {
+    margin-right: 55px;
+}
+
+.desc-markrt {
+    margin-right: 93px;
+}
+
+.crypo-item {
+    box-sizing: border-box;
+    background-color: #2c3137;
+    margin-bottom: 12px;
+    padding: 16px 30px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.crypto-id {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.crypto-detail {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    width: 168px;
+    margin-right: 91px;
+    margin-left: 80px;
+}
+
+.crypto-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.crypto-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.crypto-short {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.crypto-price {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 100px;
+}
+
+.crypto-change {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 100px;
+}
+
+.market-price {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 70px;
+}
+
+.crypto-chart {
+    height: 56px;
+    width: 110px;
+    margin-right: 60px;
+}
+
+.crypto-btn {
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 48px;
+    box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
+}

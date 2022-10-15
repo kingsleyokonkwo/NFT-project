@@ -8,6 +8,12 @@
     margin-bottom: 30px;
 }
 
+.task-title.more {
+    margin-top: 90px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
 .task {
     display: flex;
     align-items: center;

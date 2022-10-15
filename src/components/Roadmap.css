@@ -1,0 +1,36 @@
+.timeline-area {
+    margin: 90px auto;
+    width: 500px;
+    border-left: 2px solid red;
+    padding: 0 20px;
+}
+
+.timeline-event {
+    background-color: black;
+    position: relative;
+}
+
+.timeline-event:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    border: 3px solid green;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+
+.timeline-event:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent red transparent transparent;
+    border-width: 15px;
+    position: absolute;
+    left: -17px;
+    top: px;
+}

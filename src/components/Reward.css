@@ -2,6 +2,7 @@
     flex: 1;
     margin-top: 30px;
     display: flex;
+    
 }
 
 .reward-gem {
@@ -131,6 +132,7 @@
 
 .nftReward {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
 }

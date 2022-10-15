@@ -1,0 +1,125 @@
+.mainr-container {
+    margin: 50px 40px;
+}
+
+.mainr-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.mainr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.mainr-content {
+    position: relative;
+    box-sizing: border-box;
+    height: 327px;
+    width: 240px;
+    Padding: 0px, 0px, 25px, 0px;
+    border-radius: 16px;
+    background-color: #2C3137;
+    box-shadow: 0 24px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sold-out {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 100px;
+    color: #2c3137;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mainr-img {
+    width: 240px;
+    height: 160px;
+    margin-bottom: 24px;
+}
+
+.mainr-content h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 13px;
+}
+
+.mainr-desc {
+    font-size: 12px;
+    font-weight: 400;
+    padding:3px 13px;
+    margin: 0;
+}
+
+.mainr-price {
+    display: flex;
+    align-items: center;
+    height: 27px;
+    margin-top: 0;
+}
+
+.mainr-price p {
+    margin-right: 10px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mainr-market {
+    padding: 0 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+.mainr-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background: #1E2329;
+    height: 27px;
+    width: 69px;
+    box-sizing: border-box;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.mainr-amount p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mainr-amount img {
+    height: 14px;
+    width: 14px;
+}
+
+.mainr-supply {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+}
+
+.mainr-supply p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mainr-btn {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 48px;
+    box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
+}

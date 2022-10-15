@@ -23,8 +23,8 @@ export default function MoreTask1() {
     }
 
     return (
-        <div className='task-container'>
-            <h3 className='task-title'>More task</h3>
+        <div className='task-container' >
+            <h3 className='task-title more'>More task</h3>
             <div className="tasks">
                 {MoreTask.map(tasks1)}
             </div>

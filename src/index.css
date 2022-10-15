@@ -16,7 +16,7 @@ body{
     background-color: #1f1e1e;
 }
 
-p {
+p, span {
     color: #fff
 }
 
