@@ -40,6 +40,19 @@ import usdc from "./usdc.png"
 import usdt from "./usdt.png"
 import xrp from "./xrp.png"
 import matic from "./matic.png"
+import site from "./link-2.png"
+import arrow from "./arrow-down.png"
+import search from "./search.png"
+import arrowdown from "./arrow-down.png"
+import profileLogo from "./profile-logo.png"
+import codeCircle from "./code-circle.png"
+import textDocument from "./document-text.png"
+import profile from "./profile.png"
+import profile1 from "./Profile1.png"
+import profile3 from "./Profile3.png"
+import profile4 from "./Profile4.png"
+import profile5 from "./Profile5.png"
+import profile6 from "./Profile6.png"
 
 
 
@@ -580,5 +593,82 @@ export const cryptoWatchList = [
         chart: green,
         star: yellow,
         loss: false
+    },
+]
+
+export const btcLinks = [
+    {
+        logo: site,
+        name: "Bitcoin",
+        img: arrow,
+    },
+
+    {
+        logo: search,
+        name: "Explorers",
+        img: arrowdown,
+    },
+
+    {
+        logo: profileLogo,
+        name: "Community",
+        img: arrowdown,
+    },
+
+    {
+        logo: codeCircle,
+        name: "Source Code",
+        img: arrow,
+    },
+
+    {
+        logo: textDocument,
+        name: "Whitepaper",
+        img: arrow,
+    },
+]
+
+export const reviews = [
+    {
+        img: profile,
+        name: "John Doe",
+        username: "@Joe123",
+        time: "2 mins ago",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
+    },
+    {
+        img: profile1,
+        name: "John Doe",
+        username: "@Joe123",
+        time: "2 mins ago",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
+    },
+    {
+        img: profile3,
+        name: "John Doe",
+        username: "@Joe123",
+        time: "2 mins ago",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
+    },
+    {
+        img: profile4,
+        name: "John Doe",
+        username: "@Joe123",
+        time: "2 mins ago",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
+    },
+    {
+        img: profile5,
+        name: "John Doe",
+        username: "@Joe123",
+        time: "2 mins ago",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
+    },
+    {
+        img: profile6,
+        name: "John Doe",
+        username: "@Joe123",
+        time: "2 mins ago",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
     },
 ]

@@ -146,8 +146,10 @@
     position: relative;
     height: 100%;
 }
+/* 
+use react scroll and rap the inner div */
 
-.theme {
+/* .theme {
     position: absolute;
     bottom: 65px;
-}
+} */

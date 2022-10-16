@@ -1,31 +1,35 @@
 import React from 'react'
+import "./Review.css"
+import { reviews } from '../data/data'
 
 export default function Review() {
     
     const reviewData = (props) => {
         return(
             <div className="review-item">
-                <div className="top">
+                <div className="review-top">
                     <div className="profile">
                         <img src={props.img} alt="display picture" />
                         <div className="profile-detail">
-                            <p>{props.name}</p>
-                            <p>{props.username}</p>
+                            <p className='review-name'>{props.name}</p>
+                            <p className='review-username'>{props.username}</p>
                         </div>
                     </div>
-                    <p>{props.time}</p>
+                    <p className='review-time'>{props.time}</p>
                 </div>
-                <p>{props.review}</p>
+                <p className='review-proper'>{props.review}</p>
             </div>
         )
     }
 
   return (
     <div className='review'>
-        <h3>Rewviews</h3>
-        <textarea />
-        <button>send</button>
-        {map}
+        <h3>Reviews</h3>
+
+            <textarea className='textarea' id='textarea' rows="9"  placeholder="Add Review"/>
+        
+        <button className='review-btn'>send</button>
+        {reviews.map(reviewData)}
     </div>
   )
 }

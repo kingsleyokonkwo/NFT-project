@@ -1,0 +1,56 @@
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.chart h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.interval {
+    height: 48px;
+    width: 285px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25.6px;
+    background-color: #32343b;
+}
+
+
+
+.interval span {
+    height: fit-content;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 19.2px;
+}
+
+#first {
+    background-color: #111218;
+}
+
+.bitcoin-information {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history {
+    width: 50%;
+}
+
+.history h3 {
+    margin: 20px 0 8px 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.history p {
+    font-size: 16px;
+    font-weight: normal;
+}

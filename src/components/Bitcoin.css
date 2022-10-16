@@ -1,0 +1,415 @@
+.bitcoin-container {
+    margin: 35px 35px 35px 40px;
+    display: flex;
+}
+
+.bitcoin-details {
+    flex: 2;
+    margin-right: 19px;
+    
+}
+
+.btc-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+.btc-prop {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btc-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btc-logo {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    margin-right: 16px;
+}
+
+.btc-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.btc-online {
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #68F588;
+    border: 3px solid #1e2329;
+    right: 2%;
+    bottom: -7%;
+    transform: translateX(-2%);
+}
+
+.btc-ranks {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bitcoin-h3 {
+    margin-right: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.bitcoin-h3 h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-right: 9px;
+}
+
+.rank1 {
+    box-sizing: border-box;
+    height: 20px;
+    width: 35%;
+    padding-left: 7px;
+    padding-top: 2px;
+    background-color: #35373e;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.BTC {
+    font-weight: normal;
+    font-size: 13px;
+    margin-right: 17px;
+}
+
+.share-logo {
+    height: 13px;
+    width: 12px;
+}
+
+.btc-links {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btc-link {
+    display: flex;
+    align-items: center;
+    background-color: #35373e;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    height: 28px;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.btclink-icon {
+    margin-right: 4px;
+    height: 16px;
+    width: 16px;
+}
+
+.btclink-name {
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btclink-arrow {
+    cursor: pointer;
+}
+
+.btc-price {
+    width: 45%;
+}
+
+.btcprice-p {
+    color: #b8c0cc;
+    font-size: 16;
+    font-weight: 500;
+}
+
+.price-span {
+    display: flex;
+    align-items: center;
+}
+
+.pricespan-h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.pricespan-img {
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+}
+
+.pricespan-p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btc-range {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.btc-range span {
+    color: #b8c0cc;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.time-span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    width: 68px;
+    height: 33px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 9px 8px;
+    background-color: #35373e;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.range {
+    width: 100%;
+    position: relative;
+}
+
+#slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 8px;
+    outline: none;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+#selector {
+    height: 104px;
+    width: 40px;
+    position: absolute;
+    bottom: -20;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+/* .selectBtn {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: transparent red transparent transparent;
+    border-width: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+.selectBtn {
+    background-color: #fff;
+    position: relative;
+}
+
+.btc-rating {
+    width: 40%;
+    margin-bottom: 60px;
+}
+
+.p-rating {
+    color: #b8c0cc;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3.6px;
+}
+
+.p-rating-span {
+    display: flex;
+}
+
+.p-rating-h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+.p-rating-link {
+    text-decoration: underline;
+    color: #2793ff;
+    margin-left: 5px;
+}
+
+.reaction {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.like {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.like img {
+    height: 27px;
+    width: 27px;
+    padding: 8.5px;
+    border-radius: 50%;
+}
+
+.star {
+    background-color: #35373E;
+}
+
+.thumb {
+    background-color: #2793ff;
+}
+
+.like p {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.bitcoin-market {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #323a46;
+    box-sizing: border-box;
+    padding: 25px 37px;
+    height: 174px;
+    border-radius: 16px;
+    margin-bottom: 75px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.market-cap span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.marketcap-price {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.marketcap-name {
+    color: #d0d5dd;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.vol {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    height: 27px;
+}
+
+.time-24 {
+    font-size: 10px;
+    font-weight: normal;
+    background-color: #2793ff;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.overview img {
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.overview h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.horizontal-line {
+    margin: 0;
+    margin-bottom: 32px;
+    border: 1px solid #4b5768;
+}
+
+.straight-line {
+    margin: 0;
+    margin-top: 14px;
+    border-radius: 10px 10px 0 0;
+    width: 150%;
+    height: 7px;
+    background-color: #2793ff;
+    border: none;
+}
+
+
+.review {
+    flex: 1;
+}
