@@ -17,7 +17,7 @@ export default function Sidebar(props) {
   }
 
   return (
-    <div>
+    <div className='sidebar_inner'>
       <div className='header'>
         <Link to="/" className="brand">
           <img className='logo' src={logo} alt='logo' />

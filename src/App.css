@@ -9,11 +9,23 @@
   overflow: hidden;
 }
 
+/* Created an animated css class */
+.animated_padding_in {
+  padding-left: 292px;
+  transition: all 2s ease-out;
+}
+
+.animated_padding_out {
+  padding-left: 0;
+  transition: all 0.5s ease-out;
+}
+/* Added a height of 100vh*/
 .sidebar {
   background: #2C3137;
   padding: 24px 18px;
   width: 256px;
-  height: fit-content;
+  height: 100vh;
+  position: fixed;
 }
 
 

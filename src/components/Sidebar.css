@@ -141,3 +141,13 @@
     right: 5%;
     cursor: pointer;
 }
+
+.sidebar_inner {
+    position: relative;
+    height: 100%;
+}
+
+.theme {
+    position: absolute;
+    bottom: 65px;
+}

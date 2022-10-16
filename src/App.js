@@ -9,6 +9,8 @@ function App() {
   const [activeMenu, setActiveMenu] = useState(true)
   const handleMenu = () => {
     setActiveMenu((prevActiveMenu)=> !prevActiveMenu)
+
+    
   }
 
   return (
@@ -28,7 +30,7 @@ function App() {
             )}
           </div>
           {/* nav and content */}
-          <div className="body">
+          <div className={`${activeMenu ? 'animated_padding_in' : 'animated_padding_out'} body`}>
             <div>
               <div className="navbar">
                   <Navbar />
