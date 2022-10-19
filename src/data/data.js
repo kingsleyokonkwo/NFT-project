@@ -1,4 +1,3 @@
-import React from "react";
 import home from "./Home.png"
 import rewards from "./rewards.png"
 import activity from "./activity.png"
@@ -53,6 +52,27 @@ import profile3 from "./Profile3.png"
 import profile4 from "./Profile4.png"
 import profile5 from "./Profile5.png"
 import profile6 from "./Profile6.png"
+import received from './receive-square-2.png'
+import sent from './send-sqaure-2.png'
+import project1 from "./project1.png"
+import project2 from "./project2.png"
+import project3 from "./project3.png"
+import projectAd1 from "./projectAd1.png"
+import projectAd2 from "./projectAd2.png"
+import projectAd3 from "./projectAd3.png"
+import ethereum from "./ethereum.png"
+import binance from "./binance.png"
+import arc from "./arc.png"
+import bat from "./bat.png"
+import cram from "./cram.png"
+import cred from "./cred.png"
+import apex from './apex.png'
+import witcher from './witcher.png'
+import asphalt from './asphalt.png'
+import ico1 from './ico1.png'
+import ico2 from './ico2.png'
+import ico3 from './ico3.png'
+import ico4 from './ico4.png'
 
 
 
@@ -670,5 +690,294 @@ export const reviews = [
         username: "@Joe123",
         time: "2 mins ago",
         review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et sit cras volutpat, sit urna sem. At nibh cursus netus elementum sodales eget non viverra."
+    },
+]
+
+export const assets = [
+    {
+        id: 1, 
+        img: btc,
+        name: "Bitcoin",
+        short: "BTC",
+        change: "2.4%",
+        marketPrice: "24,454,6959",
+        balance: "$54,6959",
+        loss: true
+    },
+    {
+        id: 2, 
+        img: eth,
+        name: "Ethereum",
+        short: "ETH",
+        change: "4.6%",
+        marketPrice: "24,454,6959",
+        balance: "$54,6959",
+        loss: false
+    },
+    {
+        id: 3, 
+        img: usdt,
+        name: "Tether",
+        short: "USDT",
+        change: "2.4%",
+        marketPrice: "24,454,6959",
+        balance: "$54,6959",
+        loss: true
+    },
+]
+
+export const transactionItems = [
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+]
+
+export const NftAd = [
+    {
+        id: 1,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd1,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: ethereum
+    },
+    {
+        id: 2,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd2,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: binance
+    },
+    {
+        id: 3,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd3,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: ethereum
+    },
+    {
+        id: 4,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd2,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: binance
+    },
+    {
+        id: 5,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd1,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: ethereum
+    },
+    {
+        id: 6,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd2,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: binance
+    },
+    {
+        id: 7,
+        project1: project1,
+        project2: project2,
+        project3: project3,
+        img: projectAd3,
+        name: "The Elegant Environ",
+        price: "0.32ETH",
+        smartchain: ethereum
+    },
+]
+
+export const CrytoAd = [
+    {
+        id: 1,
+        img: arc,
+        name: "Arc Coin",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 2,
+        img: bat,
+        name: "Bat Coin",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 3,
+        img: cram,
+        name: "Cram Token",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 4,
+        img: cred,
+        name: "cred Coin",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 5,
+        img: arc,
+        name: "Arc Coin",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 6,
+        img: bat,
+        name: "Bat Coin",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 7,
+        img: cram,
+        name: "Cram Token",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+    {
+        id: 8,
+        img: cred,
+        name: "Cred Coin",
+        community: "20k",
+        valuation: "$253,289,2819"
+    },
+]
+
+export const MetaverseAd = [
+    {
+        id: 1,
+        img: apex,
+        name: "Apex Legends"
+    },
+    {
+        id: 2,
+        img: witcher,
+        name: "The Witcher: Wild Hunt"
+    },
+    {
+        id: 3,
+        img: asphalt,
+        name: "Asphalt Legend 9"
+    },
+    {
+        id: 4,
+        img: apex,
+        name: "Apex Legends"
+    },
+    {
+        id: 5,
+        img: witcher,
+        name: "The Witcher: Wild Hunt"
+    },
+    {
+        id: 6,
+        img: asphalt,
+        name: "Asphalt Legend 9"
+    },
+]
+
+export const IcoProjectAd = [
+    {
+        id: 1,
+        img: ico1,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
+    },
+    {
+        id: 2,
+        img: ico2,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
+    },
+    {
+        id: 3,
+        img: ico3,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
+    },
+    {
+        id: 4,
+        img: ico4,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
+    },
+    {
+        id: 5,
+        img: ico1,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
+    },
+    {
+        id: 6,
+        img: ico2,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
+    },
+    {
+        id: 7,
+        img: ico3,
+        name: "Cloud name",
+        raised: "$24,454,6959",
+        users: "33k Users"
     },
 ]

@@ -1,0 +1,29 @@
+.metaverse-container {
+    margin-left: 45px;
+    margin-bottom: 72px;
+}
+
+.metaverse-carousel {
+    overflow: hidden;
+    cursor: grab;
+}
+
+.metaverse-inner-carousel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.metaverse-item img {
+    Width: 298px;
+    Height: 369.78px;
+    border-radius: 24px;
+    margin-bottom: 16px;
+    pointer-events: none;
+}
+
+.metaverse-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+}
