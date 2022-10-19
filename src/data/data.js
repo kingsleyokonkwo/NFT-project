@@ -73,6 +73,12 @@ import ico1 from './ico1.png'
 import ico2 from './ico2.png'
 import ico3 from './ico3.png'
 import ico4 from './ico4.png'
+import img1 from "./img1.png"
+import img2 from "./img2.png"
+import img3 from "./img3.png"
+import waiting from "./waiting.png"
+import approved from "./approved.png"
+import declined from "./declined.png"
 
 
 
@@ -980,4 +986,28 @@ export const IcoProjectAd = [
         raised: "$24,454,6959",
         users: "33k Users"
     },
+]
+
+export const suggestionStatus = [
+    {
+        img: img1,
+        name: "James Brown NFT",
+        statusImg: waiting,
+        status: "Waiting",
+        waiting: true
+    },
+    {
+        img: img2,
+        name: "James Brown NFT",
+        statusImg: approved,
+        status: "Approved",
+        received: true
+    },
+    {
+        img: img3,
+        name: "James Brown NFT",
+        statusImg: declined,
+        status: "Declined",
+        declined: true
+    }
 ]

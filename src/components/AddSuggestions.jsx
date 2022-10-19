@@ -43,6 +43,8 @@ export default function AddSuggestions() {
             <CryptoProjectAd />
             <MetaverseProjects />
             <IcoProjectAds />
+
+            {/* <AdSuggestionStatus /> Render this component */}
         </div>
     )
 }

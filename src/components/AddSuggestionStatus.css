@@ -1,0 +1,47 @@
+.SuggestionStatus-container {
+    margin: 45px;
+}
+
+.suggestion-status {
+    width: 75%;
+}
+
+.statusItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9.7px 49.9px 9.7px 11.6px;
+    border-radius: 24px;
+    background-color: #2c3137;
+    margin-bottom: 16px;
+}
+
+.status-details {
+    display: flex;
+    align-items: center;
+}
+
+.status-details img {
+    margin-right: 22px;
+}
+
+.status-detail p{
+    margin: 0;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  font-weight: 500;
+  gap: 12px;
+}
+
+.status img {
+    box-sizing: border-box;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
