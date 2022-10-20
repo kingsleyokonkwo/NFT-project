@@ -1,0 +1,60 @@
+.Referrals-container {
+    border-radius: 24px;
+  background-color: #2c3137;
+  padding: 24px 30px;
+  margin-top: 5px;
+}
+
+.referral-recent {
+    margin-bottom: 30px;
+}
+
+.referral-time {
+    font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.referralItem {
+    width: 511px;
+    padding: 9px 20px 9px 16px;
+    border-radius: 16px;
+    background-color: #474d57;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.referralItem-details {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.referralItem-details img {
+    height: 48px; 
+    width: 48px;
+}
+
+.referralItem-detail h3{
+    font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.referral-name {
+    color: #68f588;
+}
+
+.referralItem-detail p {
+    margin: 0;
+    font-size: 14px;
+  font-weight: normal;
+}
+
+.referral-gem {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

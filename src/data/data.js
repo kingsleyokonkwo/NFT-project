@@ -732,6 +732,84 @@ export const assets = [
     },
 ]
 
+export const receivedItems = [
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+    {
+        img: received,
+        amount: "Received 3.2 BTC",
+        time: "12th August",
+        received: true
+    },
+]
+
+export const withdrawItems = [
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+    {
+        img: sent,
+        amount: "Withdraw 2 ETH",
+        time: "12th August",
+        received: false
+    },
+]
+
 export const transactionItems = [
     {
         img: received,
@@ -1010,4 +1088,94 @@ export const suggestionStatus = [
         status: "Declined",
         declined: true
     }
+]
+
+export const userlogItems = [
+    {
+        name: "Account Activation",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        name: "Completed Tasks",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        name: "Completed Survey",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        name: "Add a review on bitcoin page",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        name: "Eze Sent you a mail",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        name: "Add a review on NFT page",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        name: "Kene Sent you a mail",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+]
+
+export const referralList = [
+    {
+        img: profile,
+        name: "John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        reward: 24
+    },
+    {
+        img: profile1,
+        name: "John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        reward: 24
+    },
+    {
+        img: profile3,
+        name: "John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        reward: 24
+    },
+    {
+        img: profile4,
+        name: "John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        reward: 24
+    },
+    {
+        img: profile5,
+        name: "John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        reward: 24
+    },
+    {
+        img: profile6,
+        name: "John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        reward: 24
+    },
 ]

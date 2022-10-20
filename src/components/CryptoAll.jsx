@@ -31,3 +31,5 @@ export default function CryptoAll() {
     </div>
   )
 }
+
+{/* <Bitcoin /> stay here for now mate. I think it should be rendered when bitcoin is clicked... */}

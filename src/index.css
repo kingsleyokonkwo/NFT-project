@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* come back and pick the font family and background image font family for h elements; sora, p elements; inter.
-    */
+
 
 
 
@@ -10,20 +10,21 @@ body{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
     max-width: 1440px;
     margin: 0 auto;
     background-color: #1f1e1e;
 }
 
-p, span {
-    color: #fff
+p, span, a, div {
+    color: #fff;
+    font-family: "inter", sans-serif;
 }
 
 h1, h3, h4 {
     color: #fff;
     padding: 0;
     margin: 0;
+    font-family: "sora", sans-serif;
 }
 
 a {
@@ -34,9 +35,10 @@ button {
     padding: 12px 16px;
     border-radius: 8px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     background-color: #2793ff;
+    font-family: "sora", sans-serif;
     border: none;
     outline: none;
     cursor: pointer;

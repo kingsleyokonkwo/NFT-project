@@ -1,0 +1,48 @@
+.UserLog-container {
+    margin-top: 5px;
+    padding: 40px 30px 60px 30px;
+    border-radius: 24px;
+  background-color: #2c3137;
+}
+
+.userlog-item {
+    border-radius: 16px;
+    background-color: #474d57;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 440px;
+    margin-bottom: 17px;
+    padding: 10px 13px;
+}
+
+.userlog-green {
+    height: 8px;
+    width: 8px;
+    background-color: #18bb0c;
+    border-radius: 50%;
+}
+
+.userlog-details {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.userlog-detail p {
+    margin: 0;
+    font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.userlog-detail {
+    font-size: 14px;
+  font-weight: normal;
+}
+
+.userlog-timeframe {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: .7;
+}

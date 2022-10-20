@@ -1,5 +1,4 @@
 import React from 'react'
-import Bitcoin from '../components/Bitcoin'
 import Setting from '../components/Setting'
 
 export default function Settings() {
@@ -9,4 +8,3 @@ export default function Settings() {
 }
 
 
-{/* <Bitcoin /> stay here for now mate */}

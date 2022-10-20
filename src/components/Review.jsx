@@ -25,9 +25,7 @@ export default function Review() {
   return (
     <div className='review'>
         <h3>Reviews</h3>
-
-            <textarea className='textarea' id='textarea' rows="9"  placeholder="Add Review"/>
-        
+        <textarea className='textarea' id='textarea' rows="9"  placeholder="Add Review"/>
         <button className='review-btn'>send</button>
         {reviews.map(reviewData)}
     </div>

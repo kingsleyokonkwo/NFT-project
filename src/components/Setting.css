@@ -3,7 +3,6 @@
 }
 
 .setting-inner {
-    border: 1px solid blue;
     width: 80%;
 }
 
@@ -27,6 +26,7 @@
     margin: 0;
     font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .setting-header hr {

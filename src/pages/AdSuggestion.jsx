@@ -4,5 +4,6 @@ import AddSuggestions from '../components/AddSuggestions'
 export default function AdSuggestion() {
   return (
     <AddSuggestions />
+    // <AdSuggestionStatus /> will be rendered in this component
   )
 }
