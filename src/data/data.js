@@ -1179,3 +1179,43 @@ export const referralList = [
         reward: 24
     },
 ]
+
+export const notificationData = [
+    {
+        img: received,
+        name: "Received 3.2 BTC",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago",
+        received: true
+    },
+    {
+        img: sent,
+        name: "Sent 3.2 BTC",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago",
+        received: false
+    },
+    {
+        img: profile5,
+        name: "You referred John Doe",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        img: profile4,
+        name: "You Updated Your Profile",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+    {
+        img: profile3,
+        name: "Your Account",
+        year: "12 Jun 2021",
+        time: "5:57pm",
+        timeframe: "25 mins ago"
+    },
+]

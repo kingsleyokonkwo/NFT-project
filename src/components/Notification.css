@@ -1,0 +1,37 @@
+.Notification-container {
+    margin: 47px;
+}
+
+.Notification-container h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.NoNotification-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.NoNotification-container img {
+    margin-bottom: 29px;
+}
+
+.NoNotification-container p {
+    margin: 0;
+    font-size: 18px;
+  font-weight: normal;
+}
+
+.notification-item {
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 440px;
+    margin-bottom: 17px;
+    padding: 10px 13px;
+    background-color: #2c3137;
+}
