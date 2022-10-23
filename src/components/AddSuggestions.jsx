@@ -22,20 +22,17 @@ export default function AddSuggestions() {
                     </div>
                 </div>
                 <div className="ad-boxes">
-                    <div className="ad-box-big">
-                        <div className="big-box-content">
+                    <div className="ad-box-big" style={{ backgroundImage: `url(${bell})`, backgroundSize: "contain", backgroundPosition: "right", backgroundRepeat: "no-repeat"}}>
+                        <div className="big-box-content" >
                             <h3>The Right NFT At the festival</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales mollis quisque commodo facilisis adipiscing curabitur fringilla. Elit netus sed sit fermentum vel ornare sit feugiat felis.</p>
                             <Link to='/'className='ad-readmore-link' >Read More</Link>
                         </div>
-                        <div className="big-box-img">
-                            <img src={bell} alt="bell" />
-                        </div>
                     </div>
-                    <div className="ad-box-small">
+                    <div className="ad-box-small" style={{ backgroundImage: `url(${desk})`, backgroundSize: "contain", backgroundPosition: "bottom", backgroundRepeat: "no-repeat"}}>
                         <h3>The Right NFT At the festival</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales mollis quisque commodo facilisis adipiscing curabitur fringilla. Elit netus sed sit fermentum vel ornare sit feugiat felis.</p>
-                        <img src={desk} alt="bell" />
+                        {/* <img src={desk} alt="bell" /> */}
                     </div>
                 </div>
             </div>

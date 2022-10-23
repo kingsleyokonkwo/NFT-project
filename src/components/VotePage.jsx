@@ -3,6 +3,7 @@ import "./VotePage.css"
 import like from "../data/thumbsup.png"
 import plus from "../data/add-circle.png"
 import more from "../data/more.png"
+import VotedProject from './VotedProject'
 
 export default function VotePage() {
   return (
@@ -34,10 +35,13 @@ export default function VotePage() {
         </div>
         <div className="voteContent-page">
             {/* if there are no projects listed, render this */}
-            <div className="voteContent-zero">
+            {/* <div className="voteContent-zero">
                 <img src={like} alt="thumbs up" />
                 <p>You Currently don’t have any projects Listed at the moment</p>
-            </div>
+            </div> */}
+            {/* if there are listed projects, render this */}
+
+            <VotedProject />
         </div>
     </div>
   )
