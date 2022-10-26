@@ -23,7 +23,7 @@ export default function Sidebar(props) {
           <img className='logo' src={logo} alt='logo' />
           <h3>Cryptooes</h3>
         </Link>
-        <img src={menu} alt='menu' onClick={props.handleMenu}  style={{cursor: "pointer"}}/>
+        <img src={menu} alt='menu' className='hamburger' onClick={props.handleMenu}  style={{cursor: "pointer"}}/>
       </div>
 
       <div className='sidebar-items'>

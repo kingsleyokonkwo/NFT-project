@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 21px 40px;
+    padding: 21px 30px;
     height: 80px;
     box-sizing: border-box;
     background-color: #1E2329;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 25px -2px rgba(0, 0, 0, 0.4);
 }
 
 .nav-search {
@@ -47,13 +47,15 @@
 }
 
 .verify {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     padding: 5px 8px;
     background: #000;
     border-radius: 8px;
     margin-right: 20px;
-    height: 25px;
+    height: 37px;
+    width: 130px;
 }
 
 .verify img {
@@ -65,15 +67,17 @@
 .verify p {
     font-weight: 400;
     font-size: 14px;
+    opacity: .8;
 }
 
 .diamond {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     padding: 5px 8px;
     border-radius: 100px;
     margin-right: 20px;
-    height: 27px;
+    height: 37px;
     border: 1px solid rgba(255, 255, 255, .4);
 }
 
@@ -151,4 +155,16 @@
 .user-mail {
     font-size: 12px;
     font-weight: 400;
+    opacity: .6;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-search {
+        width: 217px;
+    }
+
+    .nav-input::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
