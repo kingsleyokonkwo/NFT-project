@@ -24,7 +24,7 @@ export default function LandingHero() {
           <p>Completed Task</p>
         </div>
         <div className="get-started" style={{ backgroundImage: `url(${nftgrid})`, backgroundSize: "cover", backgroundPosition: "center"}}>
-          <h3>Get Started with Cryptocurrency</h3>
+          <h3 className='getStarted-landing'>Get Started with Cryptocurrency</h3>
           <button >List Nft Project</button>
         </div>
       </div>

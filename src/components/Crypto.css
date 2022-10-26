@@ -139,3 +139,60 @@
     padding: 18px 48px;
     box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
 }
+
+@media screen and (max-width: 1024px) {
+    .crypo-item {
+        padding: 15px 27px;
+    }
+
+    .crypto-title h3 {
+        font-size: 24px;
+    }
+
+    .hashtag {
+        margin-right: 48px;
+    }
+
+    .desc-name {
+        margin-right: 100px;
+    }
+    
+    .desc-price {
+        margin-right: 9%;
+    }
+    
+    .desc-24 {
+        margin-right: 8%;
+    }
+    
+    .desc-markrt {
+        margin-right: 87px;
+    }
+
+    .crypto-img {
+        height: 32px;
+        width: 32px;
+    }
+
+    .crypto-detail {
+        margin-left: 40px;
+        margin-right: 25px;
+        width: 120px;
+    }
+
+    .crypto-price {
+        margin-right: 9%;
+    }
+    
+    .crypto-change {
+        margin-right: 11.5%;
+    }
+    
+    .market-price {
+        margin-right: 5%;
+    }
+    
+    .crypto-chart {
+        margin-right: 3%;
+    }
+}

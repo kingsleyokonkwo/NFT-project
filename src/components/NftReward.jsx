@@ -32,6 +32,9 @@ export default function NftReward() {
     return (
         <div className="nft-container">
             <div className='nftReward'>
+                {nftReward.slice(0,3).map(nftRewardCard)}
+            </div>
+            <div className='nftReward-ipad'>
                 {nftReward.map(nftRewardCard)}
             </div>
 

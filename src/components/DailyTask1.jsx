@@ -13,7 +13,7 @@ export default function DailyTask1() {
                     <h3>{props.airdrop}</h3>
                     <p>{props.airdrop}</p>
                 </div>
-                <button className='reward-btn'>Go to Airdrop Page <img src={arrow} alt="arrow right" /></button>
+                <button className='dailytask-btn'>Go to Airdrop Page <img src={arrow} alt="arrow right" /></button>
                 <div className='diamond-count'>
                     <img src={props.diamond} alt="" />
                     <h3>{props.count}</h3>

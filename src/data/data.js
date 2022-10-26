@@ -179,20 +179,30 @@ export const nftReward = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quia? Architecto officia tempora praesentium in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quia? Architecto officia tempora praesentium in.",
         price: "2000",
         supply: "0/200"
-    }
+    },
+
+    {
+        id: 4,
+        img: nft1,
+        title: "Drunk NFT",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quia? Architecto officia",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quia? Architecto officia tempora praesentium in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quia? Architecto officia tempora praesentium in.",
+        price: "2000",
+        supply: "0/200"
+    },
 ]
 
 export const DailyTask = [
     {
         img: task1,
-        airdrop: "Join an airdrop Every day and get 10 Diamonds.",
+        airdrop: "Join an Airdrop and Get 10 Diamonds.",
         diamond: diamond1,
         count: "10"
     },
 
     {
         img: task2,
-        airdrop: "Join an airdrop Every day and get 10 Diamonds.",
+        airdrop: "Join an Airdrop and Get 10 Diamonds.",
         diamond: diamond1,
         count: "10"
     },
@@ -201,21 +211,21 @@ export const DailyTask = [
 export const MoreTask = [
     {
         img: task3,
-        airdrop: "Join an airdrop Every day and get 10 Diamonds.",
+        airdrop: "Join an Airdrop and Get 10 Diamonds.",
         diamond: diamond1,
         count: "10"
     },
 
     {
         img: task4,
-        airdrop: "Join an airdrop Every day and get 10 Diamonds.",
+        airdrop: "Join an Airdrop and Get 10 Diamonds.",
         diamond: diamond1,
         count: "10"
     },
 
     {
         img: task5,
-        airdrop: "Join an airdrop Every day and get 10 Diamonds.",
+        airdrop: "Join an Airdrop and Get 10 Diamonds.",
         diamond: diamond1,
         count: "10"
     },

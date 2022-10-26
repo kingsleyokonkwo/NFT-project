@@ -8,18 +8,20 @@ import "./Reward.css"
 export default function Referral() {
     return (
         <div className='referral-container'>
-            <h3>Referral Link</h3>
-            <div className="contact">
+            <div className="referral-link">
+                <h3>Referral Link</h3>
                 <div className="link">
                     <p>https://www.google.com/se...k&oq=</p>
                     <img src={copy} alt='copy logo' />
                 </div>
-                <p>Or</p>
+            </div>
+            <p className='referral-Or'>Or</p>
+            <div className="contact">
                 <h4>Share on Social Media</h4>
                 <div className="socials">
-                    <img src={facebook} alt='facebook'/>
-                    <img src={instagram} alt='instagram'/>
-                    <img src={twitter} alt='twitter'/>
+                    <img src={facebook} alt='facebook' />
+                    <img src={instagram} alt='instagram' />
+                    <img src={twitter} alt='twitter' />
                 </div>
             </div>
 

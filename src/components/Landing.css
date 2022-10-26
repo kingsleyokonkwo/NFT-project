@@ -37,7 +37,7 @@
 }
 
 .balance-detail h3, .completed-task h3 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -61,7 +61,7 @@
 .get-started h3 {
     font-size: 24px;
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 16px;
 }
 
@@ -80,4 +80,11 @@
     font-size: 24px;
     font-weight: 800;
     line-height: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .get-started h3 {
+        font-size: 21px;
+        line-height: 1.2;
+    }
 }

@@ -46,6 +46,12 @@
     font-size: 16px;
 }
 
+.dailytask-btn {
+    display: flex;
+    align-items: center;
+    gap: 11.5px;
+}
+
 .diamond-count {
     display: flex;
     align-items: center;
@@ -54,11 +60,40 @@
 .diamond-count img {
     height: 32px;
     width: 32px;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-right: 8px;
 }
 
 .diamond-count h3 {
     font-size: 24;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .task-title {
+        font-size: 24px;
+    }
+
+    .task-img {
+        height: 64px;
+        width: 64px;
+        margin-right: 16px;
+    }
+
+    .airdrop {
+        margin-right: 90px;
+    }
+
+    .airdrop h3 {
+        font-size: 16px;
+    }
+
+    .airdrop p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .diamond-count img {
+        margin-left: 90px;
+    }
 }
