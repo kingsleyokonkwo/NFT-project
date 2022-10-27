@@ -32,7 +32,6 @@ export default function AddSuggestions() {
                     <div className="ad-box-small" style={{ backgroundImage: `url(${desk})`, backgroundSize: "contain", backgroundPosition: "bottom", backgroundRepeat: "no-repeat"}}>
                         <h3>The Right NFT At the festival</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales mollis quisque commodo facilisis adipiscing curabitur fringilla. Elit netus sed sit fermentum vel ornare sit feugiat felis.</p>
-                        {/* <img src={desk} alt="bell" /> */}
                     </div>
                 </div>
             </div>

@@ -97,8 +97,8 @@ export default function VotedProject() {
             </div>
         </div>
         <div className="vote-review">
-        <h3>Reviews</h3>
-        {reviews.slice(0,4).map(reviewData)}
+            <h3>Reviews</h3>
+            {reviews.slice(0,4).map(reviewData)}
         </div>
     </div>
   )

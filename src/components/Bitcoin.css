@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 47px;
+   
 }
 
 .btc-prop {
@@ -158,6 +159,8 @@
 .pricespan-p {
     font-size: 14px;
     font-weight: 500;
+    color: #10B981;
+
 }
 
 .btc-range {
@@ -372,7 +375,13 @@
     justify-content: space-between;
     width: 50%;
     margin: auto;
+    position: relative;
 }
+
+.review-button {
+    display: none;
+}
+
 
 .overview {
     display: flex;
@@ -380,6 +389,7 @@
     flex-direction: column;
     cursor: pointer;
     transition: all 0.5s ease;
+    position: relative;
 }
 
 .overview img {
@@ -395,16 +405,19 @@
 
 .horizontal-line {
     margin: 0;
+    margin-top: 7px;
     margin-bottom: 32px;
     border: 1px solid #4b5768;
 }
 
 .straight-line {
+    position: absolute;
+    bottom: -8px;
     margin: 0;
     margin-top: 14px;
     border-radius: 10px 10px 0 0;
-    width: 150%;
-    height: 7px;
+    width: 130%;
+    height: 4px;
     background-color: #2793ff;
     border: none;
 }
@@ -412,4 +425,66 @@
 
 .review {
     flex: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .review {
+        display: none;
+    }
+
+    .btc-detail {
+        margin-bottom: 0;
+    }
+
+    .btc-prop {
+        margin-left: 77px;
+        width: 35%;
+    }
+
+    .btc-rating {
+        margin-left: auto;
+        margin-right: 110px;
+        width: 250px;
+        margin-bottom: 51px;
+    }
+
+    .review-button {
+        display: initial;
+        position: absolute;
+        right: -50%;
+        cursor: pointer;
+    }
+
+    
+    .reviewbtn-inner {
+        position: relative;
+        background-color: #2793FF;
+        border-radius: 24px;
+    }
+    
+    .reviewbtn-review {
+        font-weight: 700;
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+    
+    .reviewbtn-inner p {
+        margin: 0;
+    }
+    
+    .review-button-number {
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        font-size: 10px;
+        font-weight: 500;
+        background-color: #E61B00;
+        border: 1px solid #fff;
+        height: 12px;
+        width: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
 }

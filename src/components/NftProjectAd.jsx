@@ -20,7 +20,7 @@ export default function NftProjectAd() {
             <motion.div className="projectAd-item" key={props.id}>
                     <div className="projectAd-top">
                         <div className="projectAd-images">
-                            <img src={props.project1} alt="profile" />
+                            <img className='pojectAd-project1' src={props.project1} alt="profile" />
                             <img className='pojectAd-project2' src={props.project2} alt="profile" />
                             <img className='pojectAd-project3' src={props.project3} alt="profile" />
                         </div>

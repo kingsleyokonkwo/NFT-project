@@ -64,3 +64,28 @@ textarea::placeholder {
     font-size: 12px;
     font-weight: 400;
 }
+
+
+.reviewIpad h3 {
+    font-weight: 800;
+    font-size: 21px;
+    margin-bottom: 22.5px;
+}
+
+.reviewIpad-container {
+    display: flex;
+    gap: 64px;
+}
+
+.reviewIpad-textarea {
+    flex: 1;
+    background-color: #2C3137;
+    height: fit-content;
+    padding: 25px;
+    padding-bottom: 0;
+    border-radius: 24px;
+}
+
+.reviewIpad-items {
+    flex: 1;
+}

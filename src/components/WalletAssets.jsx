@@ -33,7 +33,7 @@ export default function WalletAssets() {
       {dropdown && <div className="asset-dropdown">
         <span><img src={withdraw} alt="withdrawal logo" /> Withdraw</span>
         <span><img src={deposit} alt="deposit logo" /> Deposit</span>
-        <span><img src={cancel} alt="cancel" /> Cancel</span>
+        <span onClick={()=> setDropdown(false)}><img src={cancel} alt="cancel"/> Cancel</span>
       </div>}
     </div>
   )

@@ -106,3 +106,46 @@
 .smartchain {
     pointer-events: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .projectAd-title h3 {
+        font-size: 21px;
+    }
+
+    .projectAd-arrows {
+        display: none;
+    }
+
+    .projectAd-item {
+        padding: 13px 15px;
+        min-width: 220px;
+    }
+
+    .pojectAd-project1, .pojectAd-project2, .pojectAd-project3 {
+        height: 23px;
+        width: 23px;
+    }
+
+    .projectAd-like img {
+        width: 11px;
+        height: 10px;
+    }
+
+    .projectAd-like {
+        font-size: 8px;
+    }
+
+    .projectAd-name {
+        font-size: 11.9px;
+    }
+
+    .projectAd-price {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .smartchain {
+        height: 27px;
+        width: 27px;
+    }
+}

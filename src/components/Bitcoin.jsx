@@ -15,6 +15,7 @@ import Roadmap from "./Roadmap"
 import BtcStats from "./BtcStats"
 import Review from "./Review"
 import "./Bitcoin.css"
+import ReviewIpad from './ReviewIpad'
 
 
 export default function Bitcoin() {
@@ -160,10 +161,18 @@ export default function Bitcoin() {
                             </div>
                             {info === "roadmap" && <hr className='straight-line'/>}
                         </div>
+
+                        <div className="review-button">
+                            <div className="reviewbtn-inner" onClick={()=>{setInfo("review")}}>
+                                <p className='reviewbtn-review'>Review</p>
+                                <p className='review-button-number'>4</p>
+                            </div>
+                        </div>
                     </div>
                     <hr className='horizontal-line'/>
                     {info === "chart" && <Chart />}
                     {info === "roadmap" && <Roadmap />}
+                    {info === "review" && <ReviewIpad />}
                 </div>
                 
             </div>

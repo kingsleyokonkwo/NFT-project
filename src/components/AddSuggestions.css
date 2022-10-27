@@ -52,7 +52,6 @@
 
 .big-box-content {
     box-sizing: border-box;
-    height: 397px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,6 +62,7 @@
 .big-box-content h3 {
     font-size: 1.8rem;
     font-weight: 800;
+    margin-top: 40px;
     margin-bottom: 1rem;
 }
 
@@ -78,16 +78,6 @@
     font-size: 16px;
     font-weight: 800;
     color: #fff;
-}
-
-.big-box-img {
-    height: 395px;
-
-}
-
-.big-box-img img {
-    height: 100%;
-    width: 400px;
 }
 
 .ad-box-small {
@@ -116,6 +106,46 @@
     padding-left: 30px;
 }
 
-.ad-box-small img {
-    height: 184px;
+@media screen and (max-width: 1024px) {
+    .featured-ads-h3 {
+        font-size: 24px;
+    }
+
+    .status-btn,
+    .suggest-btn {
+        font-size: 14px;
+    }
+
+    .status-btn img,
+    .suggest-btn img {
+        height: 16px;
+        width: 16px;
+    }
+
+    .ad-box-big {
+        height: 275px;
+    }
+
+    .big-box-content {
+        height: 0;
+        width: 60%;
+        margin-top: 110px;
+    }
+
+    .big-box-content h3 {
+        font-size: 24px;
+        
+    }
+
+    .ad-readmore-link, .big-box-content p, .ad-box-small p {
+        font-size: 14px;
+    }
+
+    .ad-box-small {
+        height: 289px;
+    }
+
+    .ad-box-small h3 {
+        font-size: 21px;
+    }
 }

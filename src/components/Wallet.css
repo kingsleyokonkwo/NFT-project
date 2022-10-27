@@ -152,7 +152,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 13.5%;
-    width: 60px;
+    width: 50px;
 }
 
 .asset-img {
@@ -272,5 +272,79 @@
 .transaction-time {
     margin: 0;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+    .wallet-h3 {
+        font-size: 24px;
+    }
+
+    .wallet-content {
+        flex: 1.5;
+        margin-right: 31px;
+    }
+
+    .wallet-box {
+        padding: 35px 25px ;
+    }
+
+    .wallet-balance-p {
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .wallet-balance-h3 {
+        font-size: 24px;
+    }
+
+    .wallet-btc-img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .wallet-btc-amt {
+        font-size: 18px;
+    }
+
+    .withdraw-btn, .deposit-btn {
+        width: 116px;
+        height: 32px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .withdraw-btn img, .deposit-btn img {
+        height: 13.33px;
+        width: 13.33px;
+    }
+
+    .asset-change-desc {
+        display: none;
+    }
+
+    .asset-name-desc {
+        margin-right: 27%;
+    }
+    
+    .asset-balance-desc {
+        margin-right: 24%;
+    }
+
+    .asset-change {
+        display: none;
+    }
+
+    .transaction-heading h3 {
+        font-size: 18px;
+    }
+    
+    .NT-container p {
+        font-size: 16px;
+    }
+
+    .see-cryptos-link {
+        font-size: 16px;
+    }
+
 }
