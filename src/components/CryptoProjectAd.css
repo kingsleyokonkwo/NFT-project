@@ -67,3 +67,14 @@
     background-clip: text;
     color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+    .cryptoAd-top img {
+        height: 47.5px;
+        width: 47.5px;
+    }  
+    
+    .cryptoAd-top {
+        top: -10%;
+    }
+}

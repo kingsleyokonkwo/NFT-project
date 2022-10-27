@@ -8,32 +8,35 @@
 
 .setting-h3 {
     font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 25px;
+    font-weight: 800;
+    margin-bottom: 25px;
 }
 
 .setting-title {
     display: flex;
     gap: 64px;
     padding: 23px;
-  border-radius: 8px;
-  background-color: #2c3137;
-  margin-bottom: 28px;
-  position: relative;
+    border-radius: 8px;
+    background-color: #2c3137;
+    margin-bottom: 28px;
+    position: relative;
 }
 
 .setting-header p {
     margin: 0;
     font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .setting-header hr {
     margin: 0;
 }
 
-.personal-info-line, .transaction-line, .user-line, .referral-line {
+.personal-info-line,
+.transaction-line,
+.user-line,
+.referral-line {
     position: absolute;
     bottom: 0;
     height: 4px;
@@ -64,5 +67,42 @@
     width: 120px;
     left: 660px;
     transform: translateX(-30%);
-} 
+}
 
+@media screen and (max-width: 1024px) {
+    .setting-inner {
+        width: 100%;
+    }   
+
+    .setting-h3 {
+        display: none;
+    }
+
+    .setting-header p {
+        font-size: 16px;
+    }
+
+    .personal-info-line {
+        width: 180px;
+        left: 1.5%;
+        transform: translateX(-1%);
+    }
+    
+    .transaction-line {
+        width: 170px;
+        left: 357px;
+        transform: translateX(-70%);
+    }
+    
+    .user-line {
+        width: 90px;
+        left: 480px;
+        transform: translateX(-30%);
+    }
+    
+    .referral-line {
+        width: 90px;
+        left: 610px;
+        transform: translateX(-30%);
+    }
+}

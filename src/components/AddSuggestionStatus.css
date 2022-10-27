@@ -3,6 +3,7 @@
 }
 
 .suggestion-status {
+    margin-top: 43px;
     width: 75%;
 }
 
@@ -44,4 +45,19 @@
     height: 24px;
     width: 24px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .status-details img {
+        height: 61.78px;
+        width: 96.97px;
+    }  
+    
+    .status-detail p {
+        font-size: 18px;
+    }
+
+    .status {
+        font-size: 14px;
+    }
 }

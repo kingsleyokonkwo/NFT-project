@@ -19,11 +19,7 @@ export default function AdSuggestionStatus() {
                         <p>Collections</p>
                     </div>
                 </div>
-                <span className="status"><img src={props.statusImg} alt="" 
-                style={{backgroundColor: props.waiting ? '#eaac30' : ""}}
-                
-                
-                />{props.status}</span>
+                <span className="status"><img src={props.statusImg} alt="Ad status" />{props.status}</span>
             </div>
         )
     }

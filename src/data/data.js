@@ -76,7 +76,7 @@ import ico4 from './ico4.png'
 import img1 from "./img1.png"
 import img2 from "./img2.png"
 import img3 from "./img3.png"
-import waiting from "./waiting.png"
+import waiting from "./waitingg.png"
 import approved from "./approved.png"
 import declined from "./declined.png"
 

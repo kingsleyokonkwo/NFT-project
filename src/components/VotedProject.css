@@ -243,3 +243,27 @@
     font-weight: normal;
     font-size: 14px;
 }
+
+@media screen and (max-width:1024px) {
+    .VotedProject-container {
+        flex-direction: column;
+        gap: 79.5px;
+    }
+    
+    .vote-review {
+        margin-left: 0;
+        width: 342px;
+    }
+
+    .voteproject-page {
+        width: 77%;
+    }
+
+    .vote-review {
+        background-color: transparent;
+    }
+
+    .successful-popup {
+        top: -2.65%;
+    }
+}

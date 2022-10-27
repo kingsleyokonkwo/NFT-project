@@ -17,12 +17,14 @@
 
 .NoNotification-container img {
     margin-bottom: 29px;
+    height: 55px;
+    width: 55px;
 }
 
 .NoNotification-container p {
     margin: 0;
     font-size: 18px;
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .notification-item {
@@ -34,4 +36,10 @@
     margin-bottom: 17px;
     padding: 10px 13px;
     background-color: #2c3137;
+}
+
+@media screen and (max-width: 1024px) {
+    .Notification-container h3 {
+        font-size: 24px;
+    }
 }

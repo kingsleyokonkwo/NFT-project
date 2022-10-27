@@ -4,8 +4,9 @@ import Crypto from '../components/Crypto'
 
 export default function Cryptocurrency() {
   return (
-    <Bitcoin />
-    // <Crypto />
+   
+    // <Bitcoin />
+     <Crypto />
     
   )
 }

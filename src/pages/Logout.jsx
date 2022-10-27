@@ -1,5 +1,5 @@
 import React from 'react'
-import SuggestAds from '../components/SuggestAds'
+import Notification from '../components/Notification'
 import VoteAddProject from '../components/VoteAddProject'
 import VotePage from '../components/VotePage'
 

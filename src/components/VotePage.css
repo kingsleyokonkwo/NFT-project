@@ -84,3 +84,9 @@
 .inactive-votebtn {
     background-color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+    .voteProject-page {
+        height: 1900px;
+    }
+}

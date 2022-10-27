@@ -27,3 +27,14 @@
     font-size: 18px;
     font-weight: 800;
 }
+
+@media screen and (max-width: 1024px) {
+    .metaverse-item img {
+        height: 273.6px;
+        width: 220.5px;
+    }
+
+    .metaverse-item p {
+        font-size: 14px;
+    }
+}

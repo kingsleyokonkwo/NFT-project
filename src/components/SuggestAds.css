@@ -96,3 +96,26 @@ label p {
     filter: invert(2);
 }
 
+@media screen and (max-width: 1024px) {
+    .suggestAd-span img {
+        height: 26.67px;
+        width: 26.67px;
+    }
+    
+    .suggestAd-span h3 {
+        font-size: 24px;
+    }  
+    
+    .suggestAd-buttons {
+        gap: 12px;
+    }
+
+    .suggestAd-buttons {
+        margin-bottom: 44px;
+    }
+
+    .suggestAd-buttons button {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+}

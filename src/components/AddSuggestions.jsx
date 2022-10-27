@@ -40,7 +40,7 @@ export default function AddSuggestions() {
             <MetaverseProjects />
             <IcoProjectAds />
 
-            {/* <AdSuggestionStatus /> Render this component */}
+            {/* <SuggestAds.jsx /> <AdSuggestionStatus /> Render this component */}
         </div>
     )
 }
