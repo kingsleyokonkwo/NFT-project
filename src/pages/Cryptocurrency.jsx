@@ -1,12 +1,8 @@
 import React from 'react'
-import Bitcoin from '../components/Bitcoin'
-import Crypto from '../components/Crypto'
+import Crypto from '../components/Cryptocurrency/Crypto'
 
 export default function Cryptocurrency() {
   return (
-   
-    // <Bitcoin />
      <Crypto />
-    
   )
 }

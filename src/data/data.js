@@ -64,6 +64,7 @@ import ethereum from "./ethereum.png"
 import binance from "./binance.png"
 import arc from "./arc.png"
 import bat from "./bat.png"
+import like from "./like.png"
 import cram from "./cram.png"
 import cred from "./cred.png"
 import apex from './apex.png'
@@ -101,6 +102,11 @@ export const links = [
     {
         logo: coin,
         name: "Cryptocurrency"
+    },
+
+    {
+        logo: like,
+        name: "Vote"
     },
 
     {
