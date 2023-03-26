@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/faktum-test');
 
 
 
@@ -17,14 +17,16 @@ body{
 
 p, span, a, div {
     color: #fff;
-    font-family: "inter", sans-serif;
+    font-family: "Faktum test", sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
 }
 
 h1, h3, h4 {
     color: #fff;
     padding: 0;
     margin: 0;
-    font-family: "sora", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 a {
