@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from "react-router-dom"
 import "./Sidebar.css"
-import moon from "../../data/moon.png"
-import sun from "../../data/sun.png"
-import logo from "../../data/logo.png"
-import trading from "../../data/trading.png"
-import menu from "../../data/menu.png"
-import cancel from "../../data/close-circle.png"
-import { links } from '../../data/data'
+import logo from "../../../data/logo.png"
+import menu from "../../../data/menu.png"
+import { links } from '../../../data/data'
+import Theme from './Theme'
+import SidebarAd from './SidebarAd'
 
 export default function Sidebar(props) {
 
@@ -39,23 +37,8 @@ export default function Sidebar(props) {
         </div>
 
         <div className="theme">
-          <div className="theme-toggle">
-            <div className="dark-theme">
-              <img className='moon' src={moon} alt='moon logo' />
-              <p>Dark</p>
-            </div>
-            <div className="light-theme">
-              <img className='sun' src={sun} alt='sun logo' />
-              <p>Light</p>
-            </div>
-          </div>
-
-          <div className={advert ? "advert" : "noadvert"}>
-            <img className='trade-img' src={trading} alt='trading'/>
-            <h4>Send Crypto to Friends and Family</h4>
-            <button className='ad-btn'>Send now</button>
-            <img className='cancel' src={cancel} alt='cancel' onClick={handleAdvert}/>
-          </div>
+          <Theme />
+          <SidebarAd handleAdvert={handleAdvert} advert={advert}/>
         </div>
       </div>
     </div>

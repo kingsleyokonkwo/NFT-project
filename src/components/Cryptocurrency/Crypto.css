@@ -30,10 +30,20 @@
 
 .crypto-all {
     width: 48px;
+    background-color: #4b5768;
+}
+
+.crypto-all.active {
+    background-color: #2793ff;
 }
 
 .crypto-watchlist {
     width: 100px;
+    background-color: #4b5768;
+}
+
+.crypto-watchlist.active {
+    background-color: #2793ff;   
 }
 
 .crypto-desc {
@@ -117,6 +127,14 @@
     font-weight: 500;
     font-size: 16px;
     margin-right: 9%;
+}
+
+.crypto-change.gain {
+    color: #10B981;
+}
+
+.crypto-change.loss {
+    color: #EF4444;
 }
 
 .market-price {

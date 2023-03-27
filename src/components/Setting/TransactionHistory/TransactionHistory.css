@@ -1,0 +1,30 @@
+.TransactionHistory-container {
+    margin-top: 5px;
+    border-radius: 24px;
+    background-color: #2c3137;
+    display: flex;
+    gap: 25px;
+    padding: 25px 35px;
+}
+
+.received-container {
+    flex: 1;
+}
+
+.withdraw-container {
+    flex: 1;
+}
+
+.TransactionHistory-title {
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 21px;
+}
+
+.transaction__img.received {
+    background-color: #18bb0c;
+}
+
+.transaction__img.withdraw {
+    background-color: #e61b00;
+}

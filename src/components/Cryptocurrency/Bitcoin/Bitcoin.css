@@ -382,6 +382,10 @@
     display: none;
 }
 
+.info-header {
+    display: flex;
+}
+
 
 .overview {
     display: flex;

@@ -1,0 +1,88 @@
+.asset-items {
+    position: relative;
+}
+
+.asset-dropdown {
+    position: absolute;
+    right: 7%;
+    bottom: 23%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 16px;
+    justify-content: space-between;
+    height: 152px;
+    width: 140px;
+    border-radius: 8px;
+    background-color: #35373e;
+}
+
+.asset-dropdown span {
+    display: flex;
+    cursor: pointer;
+}
+
+.asset-dropdown span img {
+    margin-right: 10px;
+}
+
+
+.asset-item {
+    padding: 20px 25px;
+    border-radius: 16px;
+    background-color: #2c3137;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.asset-detail {
+    display: flex;
+    flex-direction: column;
+    margin-right: 13.5%;
+    width: 50px;
+}
+
+.asset-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.asset-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.asset-short {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    color: #a0abbb;
+}
+
+.asset-balance {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 17%;
+}
+
+.asset-change {
+    font-weight: 500;
+    font-stretch: normal;
+    margin-right: 13%;
+}
+
+.asset-change.loss {
+    color: #EF4444;
+}
+
+.asset-change.gain {
+    color: #10B981;
+}
+
+.asset-price {
+    margin-right: 5%;
+}

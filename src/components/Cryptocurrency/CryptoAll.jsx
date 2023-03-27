@@ -17,8 +17,7 @@ export default function CryptoAll() {
         </div>
         <span className="crypto-price">{props.price}</span>
         <span
-          className="crypto-change"
-          style={{ color: props.loss ? "#EF4444" : "#10B981" }}
+          className={`crypto-change ${props.loss ? "loss" : "gain"}`}
         >
           {props.change}
         </span>
@@ -31,7 +30,3 @@ export default function CryptoAll() {
 
   return <div className="cryptoItems">{Cryptocurrency.map(crypoItem)}</div>;
 }
-
-
-  /* <Bitcoin /> stay here for now mate. I think it should be rendered when bitcoin is clicked... */
-

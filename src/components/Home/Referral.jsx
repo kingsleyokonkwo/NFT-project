@@ -3,7 +3,7 @@ import copy from "../../data/copy.png"
 import twitter from "../../data/twitter.png"
 import facebook from "../../data/facebook.png"
 import instagram from "../../data/instagram.png"
-import "./Reward.css"
+import "./Reward/Reward.css"
 
 export default function Referral() {
     return (

@@ -1,0 +1,50 @@
+form {
+    width: 389px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.cryptoinput {
+    padding: 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: solid 1px #35373e;
+    background-color: #2c3137;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+label p {
+    margin: 0;
+}
+
+.label-url {
+    font-size: 14px;
+}
+
+.label-url span {
+    font-weight: bold;
+    color: #2793ff;
+}
+
+.suggestForm-btn {
+    width: 100%;
+    padding: 18px 48px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}

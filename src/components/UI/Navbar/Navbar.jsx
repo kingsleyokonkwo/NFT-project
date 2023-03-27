@@ -1,10 +1,10 @@
 import React from "react";
-import search from "../../data/search.png";
-import verified from "../../data/verify.png";
-import diamond from "../../data/diamond.png";
-import notification from "../../data/notification.png";
-import US from "../../data/US.png";
-import profile from "../../data/profile.png";
+import search from "../../../data/search.png";
+import verified from "../../../data/verify.png";
+import diamond from "../../../data/diamond.png";
+import notification from "../../../data/notification.png";
+import US from "../../../data/US.png";
+import profile from "../../../data/profile.png";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 

@@ -1,0 +1,21 @@
+.NT-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .NT-container img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 16px;
+  }
+  
+  .NT-container p {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  

@@ -5,10 +5,10 @@ import watch from "../../data/watch.png";
 import plus from "../../data/plus.png";
 import bell from "../../data/bell.png";
 import desk from "../../data/desk.png";
-import NftProjectAd from "./NftProjectAd";
-import CryptoProjectAd from "./CryptoProjectAd";
-import MetaverseProjects from "./MetaverseProjects";
-import IcoProjectAds from "./IcoProjectAds";
+import NftProjectAd from "./NftProjectAd/NftProjectAd";
+import CryptoProjectAd from "./CryptoProjectAd/CryptoProjectAd";
+import MetaverseProjects from "./MetaProjects/MetaverseProjects";
+import IcoProjectAds from "./IcoProjectAds/IcoProjectAds";
 
 export default function AddSuggestions() {
   return (

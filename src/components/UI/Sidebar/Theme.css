@@ -1,0 +1,36 @@
+.theme-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #808191;
+    border-radius: 25px;
+    height: 48px;
+}
+
+.dark-theme,
+.light-theme {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.dark-theme {
+    background-color: #1E2329;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.dark-theme p,
+.light-theme p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.moon,
+.sun {
+    height: 16px;
+    width: 16px;
+}

@@ -4,7 +4,7 @@ import diamond from "../../data/DiamondBig.png"
 import check from "../../data/check.png"
 import nftgrid from "../../data/nftgrid.png"
 import pink from "../../data/pink.png"
-import Reward from './Reward'
+import Reward from './Reward/Reward'
 
 export default function LandingHero() {
   return (
