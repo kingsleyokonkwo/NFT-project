@@ -3,6 +3,7 @@ import './Reward.css'
 import diamond from "../../../data/diamond.png"
 import arrow from "../../../data/arrow-right.png"
 import { nftReward } from '../../../data/data'
+import Button from '../../UI/Button/Button'
 
 export default function NftReward() {
 
@@ -38,7 +39,7 @@ export default function NftReward() {
                 {nftReward.map(nftRewardCard)}
             </div>
 
-            <button className='reward-btn'>Claim Reward <img src={arrow} alt="arrow right" /></button>
+            <Button className='btn-reward'>Claim Reward <img src={arrow} alt="arrow right" /></Button>
         </div>
 
     )

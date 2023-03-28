@@ -1,0 +1,149 @@
+button {
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #2793ff;
+  font-family: "sora", sans-serif;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
+  transform: scale(1.01);
+}
+
+.btn-stat:hover,
+.btn-stat:active {
+  transform: scale(1.03);
+  box-shadow: none;
+}
+
+.btn__vote.inactive:hover,
+.btn__vote.inactive:active {
+  transform: scale(1);
+  box-shadow: none;
+}
+
+.project__type-btn:hover,
+.project__type-btn:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transform: scale(1);
+}
+
+.btn-withdraw:hover,
+.btn-deposit:hover,
+.btn-status:hover,
+.btn-withdraw:active,
+.btn-deposit:active,
+.btn-status:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn-reward,
+.btn-main--reward,
+.btn-dailytask,
+.btn-withdraw,
+.btn-deposit,
+.btn-status,
+.btn-suggest {
+  display: flex;
+  align-items: center;
+}
+
+.btn-reward {
+  gap: 10px;
+  padding: 12px 45px;
+  border-radius: 12px;
+}
+
+.btn-main--reward {
+  margin: auto;
+  gap: 10px;
+  padding: 18px 48px;
+}
+
+.btn-dailytask {
+  gap: 11.5px;
+}
+
+.btn-main--reward.crypto {
+  margin: 35px auto;
+}
+
+.btn-review {
+  margin-bottom: 41px;
+}
+
+.btn-stat {
+  margin-top: 38px;
+  width: 100%;
+  background-color: #4b5768;
+  border-radius: 12px;
+}
+
+.btn__vote.inactive {
+  background-color: transparent;
+}
+
+.btn__vote {
+  width: 190.2px;
+}
+
+.btn-withdraw,
+.btn-deposit {
+  justify-content: center;
+  gap: 10px;
+  background-color: #2c3137;
+  height: 44px;
+  width: 140px;
+}
+
+.btn-deposit {
+  background-color: #fff;
+  color: #2793ff;
+}
+
+
+.btn-status,
+.btn-suggest {
+    gap: 10px;
+    padding: 10px 24px;
+    font-size: 16px;
+    border: 1px solid #2793ff;
+}
+
+.btn-status {
+    border: solid 1px #fff;
+    background-color: transparent;
+}
+
+.project__type-btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 20px;
+    border-radius: 100px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #4b5768;
+  }
+  
+  .project__type-btn.active {
+    background-color: #2793ff;
+  }
+
+  .btn-suggestform {
+    width: 100%;
+    padding: 18px 48px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}

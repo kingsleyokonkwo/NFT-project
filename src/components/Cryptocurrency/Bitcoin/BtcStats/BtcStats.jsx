@@ -2,6 +2,7 @@ import React from "react";
 import redangle from "../../../../data/redangle.png";
 import greenangle from "../../../../data/greenangle.png";
 import "./BtcStats.css";
+import Button from "../../../UI/Button/Button";
 
 export default function BtcStats() {
   return (
@@ -96,7 +97,7 @@ export default function BtcStats() {
           <p>#1</p>
         </div>
       </div>
-      <button className="stat-btn">Show More</button>
+      <Button className="btn-stat">Show More</Button>
     </div>
   );
 }

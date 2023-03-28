@@ -232,13 +232,7 @@
     font-weight: 400;
 }
 
-.reward-btn {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 45px;
-    border-radius: 12pxs;
-}
+
 
 @media screen and (max-width: 1024px) {
     .reward-container {

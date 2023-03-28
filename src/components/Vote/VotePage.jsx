@@ -5,6 +5,7 @@ import like from "../../data/thumbsup.png"
 import plus from "../../data/add-circle.png"
 import more from "../../data/more.png"
 import VotedProject from './VotedProject'
+import Button from '../UI/Button/Button'
 
 export default function VotePage() {
   return (
@@ -23,14 +24,14 @@ export default function VotePage() {
             {/* if there are listed projects, render them here */}
 
             <div className="voteNft-container">
-                <button>Hello NFT Projects</button>
+                <Button className="btn__vote">Hello NFT Projects</Button>
                 <div className="morehover">
                     <img src={more} alt="hover for more options" />
                 </div>
             </div>
 
             <div className="voteNft-container">
-                <button className='inactive-votebtn'>Hello NFT Projects</button>
+                <Button className='btn__vote inactive'>Hello NFT Projects</Button>
                 <div className="morehover">
                     <img src={more} alt="hover for more options" />
                 </div>

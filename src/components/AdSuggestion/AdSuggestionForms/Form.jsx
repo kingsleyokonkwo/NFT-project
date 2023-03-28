@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../UI/Button/Button";
 import './Form.css'
 
 export default function Form(props) {
@@ -39,7 +40,7 @@ export default function Form(props) {
         </label>
         <input className="cryptoinput" type="text" />
       </div>
-      <button className="suggestForm-btn">Suggest Ads</button>
+      <Button className="btn-suggestform">Suggest Ads</Button>
     </form>
   );
 }

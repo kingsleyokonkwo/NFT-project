@@ -7,6 +7,7 @@ import "./Wallet.css";
 import WalletAssets from "./WalletAssets/WalletAssets";
 import NoTransaction from "./NoTransaction/NoTransaction";
 import Transactions from "./Transactions/Transactions";
+import Button from "../UI/Button/Button";
 
 export default function Wallets() {
   return (
@@ -24,14 +25,14 @@ export default function Wallets() {
               </div>
             </div>
             <div className="wallet-btns">
-              <button className="withdraw-btn">
+              <Button className="btn-withdraw">
                 <img src={deposit} alt="withdraw sign" />
                 Withdraw
-              </button>
-              <button className="deposit-btn">
+              </Button>
+              <Button className="btn-deposit">
                 <img src={withdraw} alt="deposit sign" />
                 Deposit
-              </button>
+              </Button>
             </div>
           </div>
         </div>

@@ -38,13 +38,3 @@ label p {
     font-weight: bold;
     color: #2793ff;
 }
-
-.suggestForm-btn {
-    width: 100%;
-    padding: 18px 48px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 24px;
-}

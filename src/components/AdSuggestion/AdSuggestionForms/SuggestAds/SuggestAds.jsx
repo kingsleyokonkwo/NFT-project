@@ -6,6 +6,7 @@ import IcoForm from "../IcoForm";
 import { NavLink } from "react-router-dom";
 import NftForm from "../NftForm";
 import MetaverseForm from "../MetaverseForm";
+import Button from "../../../UI/Button/Button";
 
 export default function SuggestAds() {
   const [suggestionForm, setSuggestionForm] = useState("cryptoform");
@@ -21,7 +22,7 @@ export default function SuggestAds() {
       </span>
       <p className="projectType">Project types</p>
       <div className="suggestAd-buttons">
-        <button
+        <Button
           onClick={() => {
             setSuggestionForm("cryptoform");
           }}
@@ -30,8 +31,8 @@ export default function SuggestAds() {
           }`}
         >
           Crypto Project
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={() => {
             setSuggestionForm("nftform");
           }}
@@ -40,8 +41,8 @@ export default function SuggestAds() {
           }`}
         >
           NFT Project
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={() => {
             setSuggestionForm("icoform");
           }}
@@ -50,8 +51,8 @@ export default function SuggestAds() {
           }`}
         >
           ICO Drop
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={() => {
             setSuggestionForm("metaverseform");
           }}
@@ -60,7 +61,7 @@ export default function SuggestAds() {
           }`}
         >
           Metaverse Project
-        </button>
+        </Button>
       </div>
       {suggestionForm === "cryptoform" && <CryptoForm />}
       {suggestionForm === "icoform" && <IcoForm />}

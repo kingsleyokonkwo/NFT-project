@@ -31,19 +31,6 @@
   margin-bottom: 77px;
 }
 
-.project__type-btn{
-  font-size: 18px;
-  font-weight: 500;
-  padding: 16px 20px;
-  border-radius: 100px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
-  background-color: #4b5768;
-}
-
-.project__type-btn.active {
-  background-color: #2793ff;
-}
-
 ::-webkit-calendar-picker-indicator {
   filter: invert(2);
 }

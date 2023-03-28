@@ -1,3 +1,5 @@
+import Button from "../../UI/Button/Button"
+
 export default function CryptoForm() {
 
     const handleSubmit =(e)=> {
@@ -16,7 +18,7 @@ export default function CryptoForm() {
                 <input className="cryptoinput date-input" type="date"/>
             </div>
             
-            <button className='suggestForm-btn'>Suggest Ads</button>
+            <Button className='btn-suggestform'>Suggest Ads</Button>
         </form>
     </div>
   )

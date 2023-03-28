@@ -35,10 +35,6 @@ textarea::placeholder {
     color: #fff;
 }
 
-.review-btn {
-    margin-bottom: 41px;
-}
-
 .review-item {
     background-color: #41464B;
     padding: 16px;

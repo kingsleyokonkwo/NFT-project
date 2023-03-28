@@ -2,6 +2,7 @@ import React from "react";
 import "./MainReward.css";
 import diamond from "../../data/diamond.png";
 import { mainReward } from "../../data/data";
+import Button from "../UI/Button/Button";
 
 export default function MainReward() {
   const nftRewardCard = (props) => {
@@ -33,7 +34,7 @@ export default function MainReward() {
       <h3 className="mainr-title">Rewards</h3>
       <div className="mainr">{mainReward.map(nftRewardCard)}</div>
 
-      <button className="mainr-btn">Load More</button>
+      <Button className="btn-main--reward">Load More</Button>
     </div>
   );
 }

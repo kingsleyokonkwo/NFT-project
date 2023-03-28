@@ -9,6 +9,7 @@ import NftProjectAd from "./NftProjectAd/NftProjectAd";
 import CryptoProjectAd from "./CryptoProjectAd/CryptoProjectAd";
 import MetaverseProjects from "./MetaProjects/MetaverseProjects";
 import IcoProjectAds from "./IcoProjectAds/IcoProjectAds";
+import Button from "../UI/Button/Button";
 
 export default function AddSuggestions() {
   return (
@@ -18,16 +19,16 @@ export default function AddSuggestions() {
           <h3 className="featured-ads-h3">Featured Ads</h3>
           <div className="featured-ads-btns">
             <NavLink to="/ad-status">
-              <button className="status-btn">
+              <Button className="btn-status">
                 <img src={watch} alt="ad status" />
                 Ad Status
-              </button>
+              </Button>
             </NavLink>
             <NavLink to="/suggest-ads">
-              <button className="suggest-btn">
+              <Button className="btn-suggest">
                 <img src={plus} alt="plus sign" />
                 Suggest Ads
-              </button>
+              </Button>
             </NavLink>
           </div>
         </div>

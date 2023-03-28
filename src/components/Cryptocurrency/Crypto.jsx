@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../UI/Button/Button";
 import "./Crypto.css";
 import CryptoAll from "./CryptoAll";
 import WatchList from "./WatchList";
@@ -35,7 +36,7 @@ export default function Crypto() {
       </div>
       {active === "crypto" && <CryptoAll />}
       {active === "watchlist" && <WatchList />}
-      <button className="crypto-btn">Load More</button>
+      <Button className="btn-main--reward crypto">Load More</Button>
     </div>
   );
 }

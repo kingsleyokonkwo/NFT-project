@@ -33,18 +33,7 @@ a {
     text-decoration: none
 }
 
-button {
-    padding: 12px 16px;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    background-color: #2793ff;
-    font-family: "sora", sans-serif;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
+
 
 @tailwind base;
 @tailwind components;
