@@ -1,0 +1,66 @@
+.bitcoin__market {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #323a46;
+    box-sizing: border-box;
+    padding: 25px 37px;
+    height: 174px;
+    border-radius: 16px;
+    margin-bottom: 75px;
+}
+
+.col__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.market__cap span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.market__capPrice {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.market__capName {
+    color: #d0d5dd;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.vol {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    height: 27px;
+}
+
+.vol__time {
+    font-size: 10px;
+    font-weight: normal;
+    background-color: #2793ff;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.col__2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.col__4 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

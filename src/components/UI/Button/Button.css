@@ -31,8 +31,8 @@ button:active {
 
 .project__type-btn:hover,
 .project__type-btn:active {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-    transform: scale(1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transform: scale(1);
 }
 
 .btn-withdraw:hover,
@@ -112,38 +112,53 @@ button:focus {
   color: #2793ff;
 }
 
-
 .btn-status,
 .btn-suggest {
-    gap: 10px;
-    padding: 10px 24px;
-    font-size: 16px;
-    border: 1px solid #2793ff;
+  gap: 10px;
+  padding: 10px 24px;
+  font-size: 16px;
+  border: 1px solid #2793ff;
 }
 
 .btn-status {
-    border: solid 1px #fff;
-    background-color: transparent;
+  border: solid 1px #fff;
+  background-color: transparent;
 }
 
-.project__type-btn{
-    font-size: 18px;
-    font-weight: 500;
-    padding: 16px 20px;
-    border-radius: 100px;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
-    background-color: #4b5768;
-  }
-  
-  .project__type-btn.active {
-    background-color: #2793ff;
+.project__type-btn {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 20px;
+  border-radius: 100px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #4b5768;
+}
+
+.project__type-btn.active {
+  background-color: #2793ff;
+}
+
+.btn-suggestform {
+  width: 100%;
+  padding: 18px 48px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .withdraw-btn,
+  .deposit-btn {
+    width: 116px;
+    height: 32px;
+    font-size: 12px;
+    font-weight: 700;
   }
 
-  .btn-suggestform {
-    width: 100%;
-    padding: 18px 48px;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 24px;
+  .withdraw-btn img,
+  .deposit-btn img {
+    height: 13.33px;
+    width: 13.33px;
+  }
 }

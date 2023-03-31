@@ -4,28 +4,34 @@ import withdraw from "../../../data/send-sqaure-2.png";
 import deposit from "../../../data/receive-square-2.png";
 import cancel from "../../../data/cancel.png";
 import { assets } from "../../../data/data";
-import './WalletAssets.css'
+import classes from "./WalletAssets.module.css";
 
 export default function WalletAssets() {
   const [dropdown, setDropdown] = useState(false);
 
   const assetItem = (props) => {
     return (
-      <div className="asset-item">
-        <img className="asset-img" src={props.img} alt="asset symbol" />
-        <div className="asset-detail">
-          <p className="asset-name">{props.name}</p>
-          <p className="asset-short">{props.short}</p>
+      <div className={classes.asset__item}>
+        <img
+          className={classes.asset__img}
+          src={props.img}
+          alt="asset symbol"
+        />
+        <div className={classes.asset__detail}>
+          <p className={classes.asset__name}>{props.name}</p>
+          <p className={classes.asset__short}>{props.short}</p>
         </div>
-        <span className="asset-balance">{props.balance}</span>
+        <span className={classes.asset__balance}>{props.balance}</span>
         <span
-          className={`asset-change ${props.loss ? "loss" : "gain"}`}
+          className={`${classes.asset__change} ${
+            props.loss ? `${classes.loss}` : `${classes.gain}`
+          }`}
         >
           {props.change}
         </span>
-        <span className="asset-price">{props.marketPrice}</span>
+        <span className={classes.asset__price}>{props.marketPrice}</span>
         <img
-          className="more-sign"
+          className={classes.more__sign}
           src={more}
           alt="more..."
           onMouseEnter={() => setDropdown(true)}
@@ -36,10 +42,10 @@ export default function WalletAssets() {
   };
 
   return (
-    <div className="asset-items">
+    <div className={classes.asset__items}>
       {assets.map(assetItem)}
       {dropdown && (
-        <div className="asset-dropdown">
+        <div className={classes.asset__dropdown}>
           <span>
             <img src={withdraw} alt="withdrawal logo" /> Withdraw
           </span>

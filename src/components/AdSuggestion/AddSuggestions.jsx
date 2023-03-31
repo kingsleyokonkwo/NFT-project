@@ -1,10 +1,8 @@
 import React from "react";
-import "./AddSuggestions.css";
+import classes from"./AddSuggestions.module.css";
 import { Link, NavLink } from "react-router-dom";
 import watch from "../../data/watch.png";
 import plus from "../../data/plus.png";
-import bell from "../../data/bell.png";
-import desk from "../../data/desk.png";
 import NftProjectAd from "./NftProjectAd/NftProjectAd";
 import CryptoProjectAd from "./CryptoProjectAd/CryptoProjectAd";
 import MetaverseProjects from "./MetaProjects/MetaverseProjects";
@@ -13,11 +11,11 @@ import Button from "../UI/Button/Button";
 
 export default function AddSuggestions() {
   return (
-    <div className="add-suggestion-container">
-      <div className="add-suggestion-inner">
-        <div className="featured-ads">
-          <h3 className="featured-ads-h3">Featured Ads</h3>
-          <div className="featured-ads-btns">
+    <div>
+      <div className={classes.adsuggestion__inner}>
+        <div className={classes.featured__ads}>
+          <h3 className={classes.featured__adsH3}>Featured Ads</h3>
+          <div className={classes.featured__adsBtns}>
             <NavLink to="/ad-status">
               <Button className="btn-status">
                 <img src={watch} alt="ad status" />
@@ -32,36 +30,24 @@ export default function AddSuggestions() {
             </NavLink>
           </div>
         </div>
-        <div className="ad-boxes">
+        <div className={classes.ad__boxes}>
           <div
-            className="ad-box-big"
-            style={{
-              backgroundImage: `url(${bell})`,
-              backgroundSize: "contain",
-              backgroundPosition: "right",
-              backgroundRepeat: "no-repeat",
-            }}
+            className={classes.ad__boxBig}
           >
-            <div className="big-box-content">
+            <div className={classes.big__boxContent}>
               <h3>The Right NFT At the festival</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales
                 mollis quisque commodo facilisis adipiscing curabitur fringilla.
                 Elit netus sed sit fermentum vel ornare sit feugiat felis.
               </p>
-              <Link to="/" className="ad-readmore-link">
+              <Link to="/" className={classes.ad__readmoreLink}>
                 Read More
               </Link>
             </div>
           </div>
           <div
-            className="ad-box-small"
-            style={{
-              backgroundImage: `url(${desk})`,
-              backgroundSize: "contain",
-              backgroundPosition: "bottom",
-              backgroundRepeat: "no-repeat",
-            }}
+            className={classes.ad__boxSmall}
           >
             <h3>The Right NFT At the festival</h3>
             <p>

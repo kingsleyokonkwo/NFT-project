@@ -1,8 +1,8 @@
-.asset-items {
+.asset__items {
     position: relative;
 }
 
-.asset-dropdown {
+.asset__dropdown {
     position: absolute;
     right: 7%;
     bottom: 23%;
@@ -18,17 +18,17 @@
     background-color: #35373e;
 }
 
-.asset-dropdown span {
+.asset__dropdown span {
     display: flex;
     cursor: pointer;
 }
 
-.asset-dropdown span img {
+.asset__dropdown span img {
     margin-right: 10px;
 }
 
 
-.asset-item {
+.asset__item {
     padding: 20px 25px;
     border-radius: 16px;
     background-color: #2c3137;
@@ -37,52 +37,52 @@
     margin-bottom: 16px;
 }
 
-.asset-detail {
+.asset__detail {
     display: flex;
     flex-direction: column;
     margin-right: 13.5%;
     width: 50px;
 }
 
-.asset-img {
+.asset__img {
     height: 40px;
     width: 40px;
     margin-right: 8px;
 }
 
-.asset-name {
+.asset__name {
     font-size: 16px;
     font-weight: bold;
     margin: 0;
 }
 
-.asset-short {
+.asset__short {
     font-size: 12px;
     font-weight: normal;
     margin: 0;
     color: #a0abbb;
 }
 
-.asset-balance {
+.asset__balance {
     font-size: 16px;
     font-weight: 500;
     margin-right: 17%;
 }
 
-.asset-change {
+.asset__change {
     font-weight: 500;
     font-stretch: normal;
     margin-right: 13%;
 }
 
-.asset-change.loss {
+.asset__change.loss {
     color: #EF4444;
 }
 
-.asset-change.gain {
+.asset__change.gain {
     color: #10B981;
 }
 
-.asset-price {
+.asset__price {
     margin-right: 5%;
 }

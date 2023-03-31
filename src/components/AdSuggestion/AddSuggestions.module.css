@@ -1,41 +1,41 @@
-/* .add-suggestion-container {
-    border: 1px solid red;
-} */
-
-.add-suggestion-inner {
+.adsuggestion__inner {
     margin: 50px 45px;
 }
 
-.featured-ads {
+.featured__ads {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 29px;
 }
 
-.featured-ads-h3 {
+.featured__adsH3 {
     font-size: 32px;
     font-weight: 800;
 }
 
-.featured-ads-btns {
+.featured__adsBtns {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.ad-boxes {
+.ad__boxes {
     display: flex;
     gap: 15px;
 }
 
-.ad-box-big {
+.ad__boxBig {
     flex: 2;
     border-radius: 24px;
+    background-image: url('../../data/bell.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
     background-color: #2793ff;
 }
 
-.big-box-content {
+.big__boxContent {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -44,28 +44,28 @@
     width: 50%;
 }
 
-.big-box-content h3 {
+.big__boxContent h3 {
     font-size: 1.8rem;
     font-weight: 800;
     margin-top: 40px;
     margin-bottom: 1rem;
 }
 
-.big-box-content p {
+.big__boxContent p {
     font-size: 16px;
     font-weight: normal;
     margin: 0;
     margin-bottom: 1rem;
 }
 
-.ad-readmore-link {
+.ad__readmoreLink {
     text-decoration: underline;
     font-size: 16px;
     font-weight: 800;
     color: #fff;
 }
 
-.ad-box-small {
+.ad__boxSmall {
     flex: 1;
     box-sizing: border-box;
     width: 355px;
@@ -73,9 +73,13 @@
     padding: 32.6px 30px 0 0px;
     border-radius: 24px;
     background-color: #610bef;
+    background-image: url('../../data/desk.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
-.ad-box-small h3 {
+.ad__boxSmall h3 {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: .9rem;
@@ -83,7 +87,7 @@
 
 }
 
-.ad-box-small p {
+.ad__boxSmall p {
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -111,26 +115,26 @@
         height: 275px;
     }
 
-    .big-box-content {
+    .big__boxContent {
         height: 0;
         width: 60%;
         margin-top: 110px;
     }
 
-    .big-box-content h3 {
+    .big__boxContent h3 {
         font-size: 24px;
         
     }
 
-    .ad-readmore-link, .big-box-content p, .ad-box-small p {
+    .ad-readmore-link, .big__boxContent p, .ad__boxSmall p {
         font-size: 14px;
     }
 
-    .ad-box-small {
+    .ad__boxSmall {
         height: 289px;
     }
 
-    .ad-box-small h3 {
+    .ad__boxSmall h3 {
         font-size: 21px;
     }
 }

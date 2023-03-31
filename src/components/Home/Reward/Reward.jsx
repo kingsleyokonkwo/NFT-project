@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 // import GemContainer from './GemContainer'
 import NftReward from './NftReward'
 import Referral from '../Referral'
-import "./Reward.css"
+import classes from "./Reward.module.css"
 
 export default function Reward() {
   return (
-    <div className='reward-container'>
-        <div className="reward-gem">
-            <div className="reward-title">
+    <div className={classes.reward__container}>
+        <div className={classes.reward__gem}>
+            <div className={classes.reward__title}>
                 <h3>Your Sapphire Rewards</h3>
-                <Link to="/" className='view-all'>View all Rewards</Link>
+                <Link to="/rewards" className={classes.view__all}>View all Rewards</Link>
             </div>
             <NftReward/>
             {/* <div className="gem-container">

@@ -1,0 +1,60 @@
+.vote__review {
+    border-radius: 24px;
+    background-color: #2c3137;
+    flex: 1.8;
+    margin-left: 16px;
+}
+
+.vote__review h3 {
+    font-size: 21px;
+    font-weight: 800;
+    margin: 31px 0 18px 26px;
+}
+
+.votereview__item {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #41464b;
+    margin-bottom: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.votereview__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.votereview__profile {
+    display: flex;
+    align-items: center;
+}
+
+.votereview__profileDetail {
+    line-height: .1;
+}
+
+.votereview__username {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.votereview__time {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.votereview__proper {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1024px) {
+    .vote__review {
+        margin-left: 0;
+        width: 342px;
+        background-color: transparent;
+    }
+}

@@ -1,30 +1,44 @@
 import React from "react";
+import classes from "./Crypto.module.css";
 import { cryptoWatchList } from "../../data/data";
+import { NavLink } from "react-router-dom";
 
 export default function WatchList() {
   const crypoItem = (props) => {
     return (
-      <div className="crypo-item" key={props.id}>
-        <span className="crypto-id">{props.id}</span>
-        <div className="crypto-detail">
-          <img className="crypto-img" src={props.img} alt="crypto symbol" />
-          <div className="cryto-detail">
-            <p className="crypto-name">{props.name}</p>
-            <p className="crypto-short">{props.short}</p>
+      <NavLink
+        to={`${props.name}`}
+        className={classes.crypo__item}
+        key={props.id}
+      >
+        <span className={classes.crypto__itemId}>{props.id}</span>
+        <div className={classes.crypto__detail}>
+          <img
+            className={classes.crypto__detailImg}
+            src={props.img}
+            alt="crypto symbol"
+          />
+          <div className={classes.coin__desc}>
+            <p className={classes.coin__descName}>{props.name}</p>
+            <p className={classes.coin__descShort}>{props.short}</p>
           </div>
         </div>
-        <span className="crypto-price">{props.price}</span>
-        <span
-          className={`crypto-change ${props.loss ? "loss" : "gain"}`}
+        <span className={classes.crypto__itemPrice}>{props.price}</span>
+        <span 
+          className={`${classes.crypto__itemChange} ${
+            props.loss ? `${classes.loss}` : `${classes.gain}`
+          }`}
         >
           {props.change}
         </span>
-        <span className="market-price">{props.marketPrice}</span>
-        <img className="crypto-chart" src={props.chart} alt="chart" />
+        <span className={classes.crypto__itemMarketPrice}>{props.marketPrice}</span>
+        <img className={classes.crypto__itemCryptoChart} src={props.chart} alt="chart" />
         <img src={props.star} alt="chart" />
-      </div>
+      </NavLink>
     );
   };
 
-  return <div className="cryptoItems">{cryptoWatchList.map(crypoItem)}</div>;
+  return (
+    <div className={classes.cryptoItems}>{cryptoWatchList.map(crypoItem)}</div>
+  );
 }

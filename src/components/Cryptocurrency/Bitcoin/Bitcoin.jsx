@@ -4,30 +4,30 @@ import map from "../../../data/map.png";
 import Chart from "./Charts/Chart";
 import Roadmap from "./Roadmap/Roadmap";
 import Review from "./Review/Review";
-import "./Bitcoin.css";
+import classes from "./Bitcoin.module.css";
 import ReviewIpad from "./Review/ReviewIpad";
-import BtcProps from "./BtcProps";
-import BtcPrice from "./BtcPrice";
-import BtcRating from "./BtcRating";
-import BtcMarket from "./BtcMarket";
+import BtcProps from "./BtcProps/BtcProps";
+import BtcPrice from "./BtcPrice/BtcPrice";
+import BtcRating from "./BtcRating/BtcRating";
+import BtcMarket from "./BtcMarket/BtcMarket";
 
 export default function Bitcoin() {
   const [info, setInfo] = useState("chart");
 
   return (
-    <div className="bitcoin-container">
-      <div className="bitcoin-details">
-        <div className="btc-detail">
+    <div className={classes.bitcoin__container}>
+      <div className={classes.bitcoin__details}>
+        <div className={classes.btc__detail}>
           <BtcProps />
           <BtcPrice />
         </div>
         <BtcRating />
         <BtcMarket />
-        <div className="bitcoin-info">
-          <div className="info-title">
-            <div className="overview">
+        <div className={classes.bitcoin__info}>
+          <div className={classes.bitcoin__infoTitle}>
+            <div className={classes.overview}>
               <div
-                className="info-header"
+                className={classes.overview__header}
                 onClick={() => {
                   setInfo("chart");
                 }}
@@ -35,11 +35,11 @@ export default function Bitcoin() {
                 <img src={white} alt="star" />
                 <h3>Overview</h3>
               </div>
-              {info === "chart" && <hr className="straight-line" />}
+              {info === "chart" && <hr className={classes.straight__line} />}
             </div>
-            <div className="overview">
+            <div className={classes.overview}>
               <div
-                className="info-header"
+                className={classes.overview__header}
                 onClick={() => {
                   setInfo("roadmap");
                 }}
@@ -47,28 +47,28 @@ export default function Bitcoin() {
                 <img src={map} alt="map" />
                 <h3>Roadmap</h3>
               </div>
-              {info === "roadmap" && <hr className="straight-line" />}
+              {info === "roadmap" && <hr className={classes.straight__line} />}
             </div>
 
-            <div className="review-button">
+            <div className={classes.review__button}>
               <div
-                className="reviewbtn-inner"
+                className={classes.review__btnInner}
                 onClick={() => {
                   setInfo("review");
                 }}
               >
-                <p className="reviewbtn-review">Review</p>
-                <p className="review-button-number">4</p>
+                <p className={classes.review__btnReview}>Review</p>
+                <p className={classes.review__btnNumber}>4</p>
               </div>
             </div>
           </div>
-          <hr className="horizontal-line" />
+          <hr className={classes.horizontal__line} />
           {info === "chart" && <Chart />}
           {info === "roadmap" && <Roadmap />}
           {info === "review" && <ReviewIpad />}
         </div>
       </div>
-      <div className="review">
+      <div className={classes.review}>
         <Review />
       </div>
     </div>

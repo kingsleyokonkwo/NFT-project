@@ -1,20 +1,20 @@
-.cryto-container {
+.cryto__container {
     margin: 50px 40px;
 }
 
-.crypto-title {
+.crypto__title {
     display: flex;
     align-items: center;
     margin-bottom: 27px;
 }
 
-.crypto-title h3 {
+.crypto__title h3 {
     font-size: 32px;
     font-weight: 800;
     margin-right: 28px;
 }
 
-.crypto-all, .crypto-watchlist {
+.crypto__all, .crypto__watchlist {
     font-size: 16px;
     font-weight: 600;
     padding: 14px 12px;
@@ -28,25 +28,25 @@
     cursor: pointer;
 }
 
-.crypto-all {
+.crypto__all {
     width: 48px;
     background-color: #4b5768;
 }
 
-.crypto-all.active {
+.crypto__all.active {
     background-color: #2793ff;
 }
 
-.crypto-watchlist {
+.crypto__watchlist {
     width: 100px;
     background-color: #4b5768;
 }
 
-.crypto-watchlist.active {
+.crypto__watchlist.active {
     background-color: #2793ff;   
 }
 
-.crypto-desc {
+.crypto__desc {
     box-sizing: border-box;
     background-color: #2c3137;
     font-size: 16px;
@@ -61,23 +61,23 @@
     margin-right: 90px;
 }
 
-.desc-name {
+.desc__name {
     margin-right: 150px;
 }
 
-.desc-price {
+.desc__price {
     margin-right: 11%;
 }
 
-.desc-24 {
+.desc__24 {
     margin-right: 8%;
 }
 
-.desc-markrt {
+.desc__market {
     margin-right: 95px;
 }
 
-.crypo-item {
+.crypo__item {
     box-sizing: border-box;
     background-color: #2c3137;
     margin-bottom: 12px;
@@ -87,12 +87,12 @@
     align-items: center;
 }
 
-.crypto-id {
+.crypto__itemId {
     font-size: 18px;
     font-weight: bold;
 }
 
-.crypto-detail {
+.crypto__detail {
     display: flex;
     align-items: center;
     line-height: 0;
@@ -101,60 +101,60 @@
     margin-left: 60px;
 }
 
-.crypto-img {
+.crypto__detailImg {
     height: 40px;
     width: 40px;
     margin-right: 8px;
 }
 
-.crypto-name {
+.coin__descName {
     font-size: 16px;
     font-weight: bold;
 }
 
-.crypto-short {
+.coin__descShort {
     font-size: 12px;
     font-weight: normal;
 }
 
-.crypto-price {
+.crypto__itemPrice {
     font-weight: 500;
     font-size: 16px;
     margin-right: 12%;
 }
 
-.crypto-change {
+.crypto__itemChange {
     font-weight: 500;
     font-size: 16px;
     margin-right: 9%;
 }
 
-.crypto-change.gain {
+.crypto__itemChange.gain {
     color: #10B981;
 }
 
-.crypto-change.loss {
+.crypto__itemChange.loss {
     color: #EF4444;
 }
 
-.market-price {
+.crypto__itemMarketPrice {
     font-weight: 500;
     font-size: 16px;
     margin-right: 7%;
 }
 
-.crypto-chart {
+.crypto__itemCryptoChart {
     height: 56px;
     width: 110px;
     margin-right: 3%;
 }
 
 @media screen and (max-width: 1024px) {
-    .crypo-item {
+    .__ {
         padding: 15px 27px;
     }
 
-    .crypto-title h3 {
+    .crypto__title h3 {
         font-size: 24px;
     }
 
@@ -162,46 +162,46 @@
         margin-right: 48px;
     }
 
-    .desc-name {
+    .desc__name {
         margin-right: 100px;
     }
     
-    .desc-price {
+    .desc__price {
         margin-right: 9%;
     }
     
-    .desc-24 {
+    .desc__24 {
         margin-right: 8%;
     }
     
-    .desc-markrt {
+    .desc__market {
         margin-right: 87px;
     }
 
-    .crypto-img {
+    .crypto__detailImg {
         height: 32px;
         width: 32px;
     }
 
-    .crypto-detail {
+    .crypto__detail {
         margin-left: 40px;
         margin-right: 25px;
         width: 120px;
     }
 
-    .crypto-price {
+    .crypto__itemPrice {
         margin-right: 9%;
     }
     
-    .crypto-change {
+    .crypto__itemChange {
         margin-right: 11.5%;
     }
     
-    .market-price {
+    .crypto__itemMarketPrice {
         margin-right: 5%;
     }
     
-    .crypto-chart {
+    .crypto__itemCryptoChart {
         margin-right: 3%;
     }
 }

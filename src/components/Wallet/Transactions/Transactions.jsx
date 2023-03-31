@@ -1,31 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { transactionItems } from "../../../data/data";
-import './Transaction.css'
+import classes from "./Transaction.module.css";
 
 export default function Transactions() {
   const transactionList = (props) => {
     return (
-      <div className="transaction">
+      <div className={classes.transaction}>
         <img
-          className={`transaction-img ${props.received ? "received" : "sent"}`}
+          className={`${classes.transaction__img} ${
+            props.received ? `${classes.received}` : `${classes.sent}`
+          }`}
           src={props.img}
           alt="transfer"
         />
-        <div className="transaction-detail">
-          <p className="transaction-amt">{props.amount}</p>
-          <p className="transaction-time">{props.time}</p>
+        <div className={classes.transaction__detail}>
+          <p className={classes.transaction__amt}>{props.amount}</p>
+          <p className={classes.transaction__time}>{props.time}</p>
         </div>
       </div>
     );
   };
 
   return (
-    <div className="transactions-container">
-      <div className="transactions">
+    <div className={classes.transactions__container}>
+      <div className={classes.transactions}>
         {transactionItems.map(transactionList)}
       </div>
-      <Link className="see-cryptos-link">See all Transaction</Link>
+      <Link className={classes.seeCryptosLink}>See all Transaction</Link>
     </div>
   );
 }
