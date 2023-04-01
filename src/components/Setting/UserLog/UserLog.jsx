@@ -1,27 +1,28 @@
-import React from 'react'
-import './UserLog.css'
-import { userlogItems } from '../../../data/data'
+import React from "react";
+import classes from "./UserLog.module.css";
+import { userlogItems } from "../../../data/data";
 
 export default function UserLog() {
-
-    const userlogItem = (props) => {
-        return (
-            <div className="userlog-item" key={props.name}>
-                <div className="userlog-details">
-                    <div className='userlog-green'></div>
-                    <div className="userlog-detail">
-                        <p className='userlog-name'>{props.name}</p>
-                        <span className='userlog-time'>{props.year} {props.time}</span>
-                    </div>
-                </div>
-                <p className='userlog-timeframe'>{props.timeframe}</p>
-            </div>
-        )
-    }
-
+  const userlogItem = (props) => {
     return (
-        <div className='UserLog-container'>
-            {userlogItems.map(userlogItem)}
+      <div className={classes.userlog__item} key={props.name}>
+        <div className={classes.userlog__details}>
+          <div className={classes.userlog__green}></div>
+          <div className={classes.userlog__detail}>
+            <p className={classes.userlog__name}>{props.name}</p>
+            <span className={classes.userlog__time}>
+              {props.year} {props.time}
+            </span>
+          </div>
         </div>
-    )
+        <p className={classes.userlog__timeframe}>{props.timeframe}</p>
+      </div>
+    );
+  };
+
+  return (
+    <div className={classes.UserLog__container}>
+      {userlogItems.map(userlogItem)}
+    </div>
+  );
 }

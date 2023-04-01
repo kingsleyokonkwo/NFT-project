@@ -1,18 +1,18 @@
-.setting-container {
+.setting__container {
     margin: 45px;
 }
 
-.setting-inner {
+.setting__inner {
     width: 80%;
 }
 
-.setting-h3 {
+.setting__innerh3 {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 25px;
 }
 
-.setting-title {
+.setting__title {
     display: flex;
     gap: 64px;
     padding: 23px;
@@ -22,21 +22,21 @@
     position: relative;
 }
 
-.setting-header p {
+.setting__header p {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
 }
 
-.setting-header hr {
+.setting__header hr {
     margin: 0;
 }
 
-.personal-info-line,
-.transaction-line,
-.user-line,
-.referral-line {
+.personalInfo__line,
+.transaction__line,
+.user__line,
+.referral__line {
     position: absolute;
     bottom: 0;
     height: 4px;
@@ -45,62 +45,62 @@
     border-radius: 8px 8px 0 0;
 }
 
-.personal-info-line {
+.personalInfo__line {
     width: 210px;
     left: 1%;
     transform: translateX(-1%);
 }
 
-.transaction-line {
+.transaction__line {
     width: 200px;
     left: 395px;
     transform: translateX(-70%);
 }
 
-.user-line {
+.user__line {
     width: 120px;
     left: 520px;
     transform: translateX(-30%);
 }
 
-.referral-line {
+.referral__line {
     width: 120px;
     left: 660px;
     transform: translateX(-30%);
 }
 
 @media screen and (max-width: 1024px) {
-    .setting-inner {
+    .setting__inner {
         width: 100%;
     }   
 
-    .setting-h3 {
+    .setting__innerh3 {
         display: none;
     }
 
-    .setting-header p {
+    .setting__header p {
         font-size: 16px;
     }
 
-    .personal-info-line {
+    .personalInfo__line {
         width: 180px;
         left: 1.5%;
         transform: translateX(-1%);
     }
     
-    .transaction-line {
+    .transaction__line {
         width: 170px;
         left: 357px;
         transform: translateX(-70%);
     }
     
-    .user-line {
+    .user__line {
         width: 90px;
         left: 480px;
         transform: translateX(-30%);
     }
     
-    .referral-line {
+    .referral__line {
         width: 90px;
         left: 610px;
         transform: translateX(-30%);

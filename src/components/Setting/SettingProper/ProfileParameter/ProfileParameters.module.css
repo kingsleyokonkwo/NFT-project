@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.profileinfo-container {
+.profileinfo__container {
     box-sizing: border-box;
     width: 374.6px;
     height: 198.1px;
@@ -17,26 +17,50 @@
     margin-bottom: 32px;
 }
 
-.profileinfo-container-inner {
+.profileinfo__containerInner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 35px;
+    
 }
 
-.ProfileParameters-username {
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 40px;
+    width: 40px;
+    margin-right: 4px;
+}
+
+.profile__detailName {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.profile__detailUsername {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ProfileParameters__username {
     margin: 0;
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 4px;
 }
 
-.ProfileParameters-h3 {
+.ProfileParameters__h3 {
     font-size: 21px;
     font-weight: 800;
 }
 
-.ProfileParameter-setting {
+.ProfileParameter__setting {
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -48,7 +72,7 @@
     background-color: #4f5357;
 }
 
-.ProfileParameter-setting span {
+.ProfileParameter__setting span {
     display: flex;
     align-items: center;
     gap: 11px;

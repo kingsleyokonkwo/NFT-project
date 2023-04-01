@@ -147,6 +147,32 @@ button:focus {
   margin-top: 24px;
 }
 
+.editProfile-upload-btn, .editProfile-reset-btn {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 155px;
+}
+
+.editProfile-reset-btn {
+  background-color: #474d57;
+}
+
+.updateSocial-btn {
+  margin-top: 24px;
+  width: 390px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 18px 48px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(31, 118, 204, 0.4);
+}
+
 @media screen and (max-width: 1024px) {
   .withdraw-btn,
   .deposit-btn {

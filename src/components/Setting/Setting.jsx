@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-// import ChangePassword from './SettingProper/ChangePassword'
-// import EditProfile from './SettingProper/EditProfile'
-// import PasswordSuccessful from './SettingProper/PasswordSuccessful'
 import ProfileParameters from "./SettingProper/ProfileParameter/ProfileParameters";
 import Referrals from "./Referrals/Referrals";
-import "./Setting.css";
+import classes from "./Setting.module.css";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
-// import UpdateSocial from './SettingProper/UpdateSocial'
 import UserLog from "./UserLog/UserLog";
+import ChangePassword from './SettingProper/ChangePassword/ChangePassword'
+import EditProfile from './SettingProper/EditProfile/EditProfile'
+import PasswordSuccessful from './SettingProper/PasswordSuccessful/PasswordSuccessful'
+import UpdateSocial from './SettingProper/UpdateSocial/UpdateSocial'
 
 export default function Setting() {
   const [setting, setSetting] = useState("personalInfo");
 
   return (
-    <div className="setting-container">
-      <div className="setting-inner">
-        <h3 className="setting-h3">Setting</h3>
-        <span className="setting-title">
-          <div className="setting-header">
+    <div className={classes.setting__container}>
+      <div className={classes.setting__inner}>
+        <h3 className={classes.setting__innerh3}>Setting</h3>
+        <span className={classes.setting__title}>
+          <div className={classes.setting__header}>
             <p
               onClick={() => {
                 setSetting("personalInfo");
@@ -26,10 +26,10 @@ export default function Setting() {
               Personal Information
             </p>
             {setting === "personalInfo" && (
-              <hr className="personal-info-line" />
+              <hr className={classes.personalInfo__line} />
             )}
           </div>
-          <div className="setting-header">
+          <div className={classes.setting__header}>
             <p
               onClick={() => {
                 setSetting("transaction");
@@ -37,9 +37,9 @@ export default function Setting() {
             >
               Transaction History
             </p>
-            {setting === "transaction" && <hr className="transaction-line" />}
+            {setting === "transaction" && <hr className={classes.transaction__line} />}
           </div>
-          <div className="setting-header">
+          <div className={classes.setting__header}>
             <p
               onClick={() => {
                 setSetting("userlog");
@@ -47,9 +47,9 @@ export default function Setting() {
             >
               User Log
             </p>
-            {setting === "userlog" && <hr className="user-line" />}
+            {setting === "userlog" && <hr className={classes.user__line} />}
           </div>
-          <div className="setting-header">
+          <div className={classes.setting__header}>
             <p
               onClick={() => {
                 setSetting("referrals");
@@ -57,21 +57,15 @@ export default function Setting() {
             >
               Referrals
             </p>
-            {setting === "referrals" && <hr className="referral-line" />}
+            {setting === "referrals" && <hr className={classes.referral__line} />}
           </div>
         </span>
 
         {setting === "personalInfo" && <ProfileParameters />}
-        {/* {setting === "personalInfo" && <EditProfile />}
+        {setting === "personalInfo" && <EditProfile />}
             {setting === "personalInfo" && <ChangePassword />}
             {setting === "personalInfo" && <PasswordSuccessful />}
-            {setting === "personalInfo" && <UpdateSocial />} */}
-
-        {/* these are with profileParameters
-            <EditProfile />
-            <ChangePassword />
-            <PasswordSuccessful />
-            <UpdateSocial /> */}
+            {setting === "personalInfo" && <UpdateSocial />} 
 
         {setting === "transaction" && <TransactionHistory />}
 

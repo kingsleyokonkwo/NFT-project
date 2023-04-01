@@ -1,9 +1,10 @@
 import React from "react";
-import "./EditProfile.css";
+import classes from "./EditProfile.module.css";
 import user from "../../../../data/user.png";
 import upload from "../../../../data/export.png";
 import profile from "../../../../data/Profilebig.png";
 import arrow from "../../../../data/arrow-left.png";
+import Button from "../../../UI/Button/Button"
 
 export default function EditProfile() {
   const handleSubmit = (e) => {
@@ -11,48 +12,48 @@ export default function EditProfile() {
   };
 
   return (
-    <div className="editProfile-container">
-      <span className="editprifile-navigation">
+    <div className={classes.editProfile__container}>
+      <span className={classes.editprifile__navigation}>
         <img src={arrow} alt="navigate back arrow" />
         <h3>Edit Profile Details</h3>
       </span>
-      <div className="user-action">
-        <img src={profile} alt="users" className="editProfile-img" />
-        <button className="editProfile-upload-btn">
+      <div className={classes.user__action}>
+        <img src={profile} alt="users" className={classes.editProfile__img} />
+        <Button className="editProfile-upload-btn">
           <img src={upload} alt="upload icon" />
           Upload Photo
-        </button>
+        </Button>
         <button className="editProfile-reset-btn">
           <img src={user} alt="user icon" />
           Default Reset
         </button>
       </div>
       <form onSubmit={handleSubmit}>
-        <div className="formInput">
+        <div className={classes.formInput}>
           <label>Full Name</label>
           <input
-            className="editProfile-input"
+            className={classes.editProfile__input}
             type="text"
             placeholder="John Doe"
           />
         </div>
-        <div className="formInput">
+        <div className={classes.formInput}>
           <label>Email</label>
           <input
-            className="editProfile-input"
+            className={classes.editProfile__input}
             type="text"
             placeholder="johndoe@email.com"
           />
         </div>
-        <div className="formInput">
+        <div className={classes.formInput}>
           <label>Username</label>
           <input
-            className="editProfile-input"
+            className={classes.editProfile__input}
             type="text"
             placeholder="Johndoe123"
           />
         </div>
-        <button className="suggestForm-btn">Save Changes</button>
+        <Button className="btn-suggestform">Save Changes</Button>
       </form>
     </div>
   );

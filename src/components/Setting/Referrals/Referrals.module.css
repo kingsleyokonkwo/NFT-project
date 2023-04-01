@@ -1,15 +1,15 @@
-.Referrals-container {
+.Referrals__container {
   border-radius: 24px;
   background-color: #2c3137;
   padding: 24px 30px;
   margin-top: 5px;
 }
 
-.referral-recent {
+.referral__recent {
   margin-bottom: 30px;
 }
 
-.referral-time {
+.referral__time {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 16px;
@@ -26,41 +26,41 @@
   justify-content: space-between;
 }
 
-.referralItem-details {
+.referralItem__details {
   display: flex;
   align-items: center;
   gap: 28px;
 }
 
-.referralItem-details img {
+.referralItem__details img {
   height: 48px;
   width: 48px;
 }
 
-.referralItem-detail h3 {
+.referralItem__detail h3 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 
-.referral-name {
+.referral__name {
   color: #68f588;
 }
 
-.referralItem-detail p {
+.referralItem__detail p {
   margin: 0;
   font-size: 14px;
   font-weight: normal;
 }
 
-.referral-gem {
+.referral__gem {
   display: flex;
   align-items: center;
   gap: 4px;
 }
 
 @media screen and (max-width: 1024px) {
-  .referral-time {
+  .referral__time {
     font-size: 21px;
   }
 }
