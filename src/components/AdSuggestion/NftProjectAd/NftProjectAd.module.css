@@ -1,10 +1,10 @@
-.projectAd-container {
+.projectAd__container {
     margin-top: 70px;
     margin-left: 45px;
     margin-bottom: 72px;
 }
 
-.projectAd-title {
+.projectAd__title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,28 +12,28 @@
     margin-right: 45px;
 }
 
-.projectAd-title h3 {
+.projectAd__title h3 {
     font-weight: 800;
     font-size: 24px;
 }
 
-.projectAd-arrows {
+.projectAd__arrows {
     display: flex;
     gap: 1rem;
     cursor: pointer;
 }
 
-.projectAd-carousel {
+.projectAd__carousel {
     cursor: grab;
     overflow: hidden;
 }
 
-.projectAd-inner-carousel {
+.projectAd__carouselInner {
     display: flex;
     gap: 16px;
 }
 
-.projectAd-item {
+.projectAd__item {
     box-sizing: border-box;
     width: 29%;
     min-width: 295px;
@@ -42,31 +42,31 @@
     background-color: #2c3137;
 }
 
-.projectAd-top {
+.projectAd__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 13px;
 }
 
-.projectAd-images {
+.projectAd__images {
     position: relative;
     pointer-events: none;
 }
 
-.pojectAd-project2 {
+.pojectAd__project2 {
     position: absolute;
     left: 75%;
     top: 0;
 }
 
-.pojectAd-project3 {
+.pojectAd__project3 {
     position: absolute;
     left: 150%;
     top: 0;
 }
 
-.projectAd-like {
+.projectAd__like {
     display: flex;
     align-items: center;
     font-size: 10.4px;
@@ -74,28 +74,25 @@
     gap: 4px;
 }
 
-.projectAd-img {
+.projectAd__img {
     width: 100%;
     margin-bottom: 11px;
     pointer-events: none;
 }
 
-.projectAd-buttom {
+.projectAd__buttom {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.projectAd-detail p {
+.projectAd__detailName {
+    font-size: 15.5px;
+    font-weight: 600;
     margin: 0;
 }
 
-.projectAd-name {
-    font-size: 15.5px;
-    font-weight: 600;
-}
-
-.projectAd-price {
+.projectAd__detailPrice {
     font-size: 17.7px;
     font-weight: bold;
     background-image: linear-gradient(109deg, #43cbff 0%, #9708cc 100%);
@@ -108,38 +105,38 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .projectAd-title h3 {
+    .projectAd__title h3 {
         font-size: 21px;
     }
 
-    .projectAd-arrows {
+    .projectAd__arrows {
         display: none;
     }
 
-    .projectAd-item {
+    .projectAd__item {
         padding: 13px 15px;
         min-width: 220px;
     }
 
-    .pojectAd-project1, .pojectAd-project2, .pojectAd-project3 {
+    .pojectAd__project1, .pojectAd__project2, .pojectAd__project3 {
         height: 23px;
         width: 23px;
     }
 
-    .projectAd-like img {
+    .projectAd__like img {
         width: 11px;
         height: 10px;
     }
 
-    .projectAd-like {
+    .projectAd__like {
         font-size: 8px;
     }
 
-    .projectAd-name {
+    .projectAd__detailName {
         font-size: 11.9px;
     }
 
-    .projectAd-price {
+    .projectAd__detailPrice {
         font-size: 14px;
         font-weight: 700;
     }

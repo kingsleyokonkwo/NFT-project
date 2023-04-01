@@ -6,7 +6,7 @@ export default function NftForm() {
     e.preventDefault();
   };
   return (
-    <div className="crypto-form">
+    <div>
       <Form onSubmit={handleSubmit} />
     </div>
   );

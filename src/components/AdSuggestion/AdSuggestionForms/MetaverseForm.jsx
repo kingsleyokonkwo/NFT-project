@@ -6,7 +6,7 @@ export default function MetaverseForm() {
         e.preventDefault();
       };
   return (
-    <div className="crypto-form">
+    <div>
       <Form onSubmit={handleSubmit} />
     </div>
   )

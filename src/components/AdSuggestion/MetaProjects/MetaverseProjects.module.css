@@ -1,0 +1,67 @@
+.metaverse__container {
+  margin-left: 45px;
+  margin-bottom: 72px;
+}
+
+.metaverseAd__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-right: 45px;
+}
+
+.metaverseAd__title h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.metaverseAd__arrows {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.metaverse__carousel {
+  overflow: hidden;
+  cursor: grab;
+}
+
+.metaverse__carouselInner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.metaverse__item img {
+  width: 298px;
+  height: 369.78px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  pointer-events: none;
+}
+
+.metaverse__item p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1024px) {
+  .metaverse__item img {
+    height: 273.6px;
+    width: 220.5px;
+  }
+
+  .metaverse__item p {
+    font-size: 14px;
+  }
+
+  .metaverseAd__title h3 {
+    font-size: 21px;
+  }
+
+  .metaverseAd__arrows {
+    display: none;
+  }
+}

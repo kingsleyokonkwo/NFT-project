@@ -7,7 +7,7 @@ export default function CryptoForm() {
   };
 
   return (
-    <div className="crypto-form">
+    <div>
       <Form onSubmit={handleSubmit} />
     </div>
   );

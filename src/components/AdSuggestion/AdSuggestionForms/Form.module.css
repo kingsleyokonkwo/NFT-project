@@ -30,11 +30,11 @@ label p {
     margin: 0;
 }
 
-.label-url {
+.label__url {
     font-size: 14px;
 }
 
-.label-url span {
+.label__url span {
     font-weight: bold;
     color: #2793ff;
 }

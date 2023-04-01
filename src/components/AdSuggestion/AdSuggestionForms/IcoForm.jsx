@@ -1,4 +1,5 @@
-import Button from "../../UI/Button/Button"
+import Button from "../../UI/Button/Button";
+import classes from './Form.module.css'
 
 export default function CryptoForm() {
 
@@ -7,15 +8,15 @@ export default function CryptoForm() {
     }
 
   return (
-    <div className='crypto-form'>
+    <div>
         <form onSubmit={handleSubmit}>
-            <div className="formInput">
+            <div className={classes.formInput}>
                 <label>Project Name</label>
-                <input className="cryptoinput" type="text"/>
+                <input className={classes.cryptoinput} type="text"/>
             </div>
-            <div className="formInput">
+            <div className={classes.formInput}>
                 <label>Start Date</label>
-                <input className="cryptoinput date-input" type="date"/>
+                <input className={classes.cryptoinput} type="date"/>
             </div>
             
             <Button className='btn-suggestform'>Suggest Ads</Button>

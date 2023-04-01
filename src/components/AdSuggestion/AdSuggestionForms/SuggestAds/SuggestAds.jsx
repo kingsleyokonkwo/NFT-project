@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SuggestAds.css";
+import classes from "./SuggestAds.module.css";
 import arrowback from "../../../../data/arrow-left.png";
 import CryptoForm from "../CryptoForm";
 import IcoForm from "../IcoForm";
@@ -12,16 +12,16 @@ export default function SuggestAds() {
   const [suggestionForm, setSuggestionForm] = useState("cryptoform");
 
   return (
-    <div className="suggestAd-container">
-      <span className="suggestAd-span">
+    <div className={classes.suggestAd__container}>
+      <span className={classes.suggestAd__span}>
         <NavLink to="/ad-suggestion">
           <img src={arrowback} alt="navigate back arrow" />
         </NavLink>
 
         <h3>Suggest Ads</h3>
       </span>
-      <p className="projectType">Project types</p>
-      <div className="suggestAd-buttons">
+      <p className={classes.projectType}>Project types</p>
+      <div className={classes.suggestAd__buttons}>
         <Button
           onClick={() => {
             setSuggestionForm("cryptoform");

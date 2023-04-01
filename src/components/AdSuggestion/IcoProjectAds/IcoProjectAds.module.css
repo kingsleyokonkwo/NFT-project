@@ -1,0 +1,110 @@
+.icoproject__container {
+  margin-left: 45px;
+  margin-bottom: 180px;
+}
+
+.icoprojectAd__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-right: 45px;
+}
+
+.icoprojectAd__title h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.icoprojectAd__arrows {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.icoproject__carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.icoproject__carouselInner {
+  display: flex;
+  gap: 16px;
+}
+
+.icoproject__item {
+  background-color: #2c3137;
+  min-width: 298px;
+  height: 235px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 34px 25px;
+}
+
+.icoproject__itemTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icoproject__itemTop p {
+  margin: 0;
+  margin-top: 11px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.icoproject__itemTop img {
+  pointer-events: none;
+}
+
+.icoproject__itemBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.icoproject__itemBottom P {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.icoproject__itemBottom h3 {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .icoproject__item {
+    height: 200px;
+    min-width: 252.79px;
+  }
+
+  .icoproject__itemTop img {
+    height: 47.5px;
+    width: 47.5px;
+  }
+
+  .icoproject__itemBottom {
+    margin-top: 27px;
+  }
+
+  .icoproject__itemBottom P {
+    font-size: 10.18px;
+  }
+
+  .icoproject__itemBottom h3 {
+    font-size: 14px;
+  }
+
+  .icoprojectAd__title h3 {
+    font-size: 21px;
+  }
+
+  .icoprojectAd__arrows {
+    display: none;
+  }
+}
