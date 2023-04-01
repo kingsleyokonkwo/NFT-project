@@ -97,7 +97,7 @@ export default function BtcStats() {
           <p>#1</p>
         </div>
       </div>
-      <Button className="btn-stat">Show More</Button>
+      <Button className={classes.btn__stat}>Show More</Button>
     </div>
   );
 }

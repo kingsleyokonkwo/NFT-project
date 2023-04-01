@@ -150,11 +150,13 @@
 .username {
     font-size: 14px;
     font-weight: 700;
+    margin: 0;
 }
 
 .user__mail {
     font-size: 12px;
     font-weight: 400;
+    margin: 0;
     opacity: .6;
 }
 

@@ -17,8 +17,8 @@ button:active {
   transform: scale(1.01);
 }
 
-.btn-stat:hover,
-.btn-stat:active {
+.btn__stat:hover,
+.btn__stat:active {
   transform: scale(1.03);
   box-shadow: none;
 }
@@ -83,7 +83,7 @@ button:focus {
   margin-bottom: 41px;
 }
 
-.btn-stat {
+.btn__stat {
   margin-top: 38px;
   width: 100%;
   background-color: #4b5768;
