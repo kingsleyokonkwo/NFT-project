@@ -1,4 +1,4 @@
-.theme-toggle {
+.theme__toggle {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -7,8 +7,8 @@
     height: 48px;
 }
 
-.dark-theme,
-.light-theme {
+.dark__theme,
+.light__theme {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -17,14 +17,14 @@
     cursor: pointer;
 }
 
-.dark-theme {
+.dark__theme {
     background-color: #1E2329;
     border-radius: 25px;
     width: 50%;
 }
 
-.dark-theme p,
-.light-theme p {
+.dark__theme p,
+.light__theme p {
     font-size: 14px;
     font-weight: 600;
 }

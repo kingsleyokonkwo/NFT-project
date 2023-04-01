@@ -1,8 +1,17 @@
+.sidebar_inner {
+    position: relative;
+    height: 100%;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
+}
+
+.hamburger {
+    cursor: pointer;
 }
 
 .brand {
@@ -21,7 +30,7 @@
     width: 26px;
 }
 
-.sidebar-items {
+.sidebar__items {
     margin: 0;
     margin-top: 20px;
     display: flex;
@@ -32,7 +41,7 @@
     margin-top: 25px;
 }
 
-.link-item {
+.link__item {
     margin-bottom: 5px;
     display: flex;
     align-items: center;
@@ -44,25 +53,25 @@
     cursor: pointer;
 }
 
-.link-item:hover {
+.link__item:hover {
     background: rgba(71, 77, 87, .3);
 }
 
-.link-item.active {
+.link__item.active {
     background: #474D57;
 }
 
-.link-icon {
+.link__icon {
     height: 24px;
     width: 24px;
-    opacity: .8;
-}
-
-.link-icon.active {
     opacity: 1;
 }
 
-.link-name {
+.link__icon.active {
+    opacity: 1;
+}
+
+.link__name {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
@@ -71,10 +80,6 @@
 
 
 
-.sidebar_inner {
-    position: relative;
-    height: 100%;
-}
 
 /* 
 use react scroll and rap the inner div */
@@ -98,7 +103,7 @@ use react scroll and rap the inner div */
         display: none;
     }
 
-    .link-item {
+    .link__item {
         box-sizing: border-box;
         width: 52px;
         height: 52px;
@@ -107,11 +112,11 @@ use react scroll and rap the inner div */
         margin-bottom: 6px;
     }
 
-    .link-icon {
+    .link__icon {
         margin: auto;
     }
 
-    .link-name {
+    .link__name {
         display: none;
     }
 
