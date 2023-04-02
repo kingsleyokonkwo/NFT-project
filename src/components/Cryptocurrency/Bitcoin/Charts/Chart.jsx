@@ -17,7 +17,7 @@ export default function Chart() {
         </div>
       </div>
       {/* chart placeholder */}
-      <img src={chart} alt="chart" style={{ width: "100%" }} />
+      <img src={chart} alt="chart"  />
       <div className={classes.bitcoin__information}>
         <BtcStats />
         <div className={classes.history}>

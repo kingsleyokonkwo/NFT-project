@@ -11,8 +11,8 @@ export default function Review() {
           <div className={classes.review__profile}>
             <img src={props.img} alt="display symbol" />
             <div className={classes.review__profileDetail}>
-              <p className={classes.review__name}>{props.name}</p>
-              <p className={classes.review__username}>{props.username}</p>
+              <p className={classes.review__profileDetailName}>{props.name}</p>
+              <p className={classes.review__profileDetailUsername}>{props.username}</p>
             </div>
           </div>
           <p className={classes.review__time}>{props.time}</p>
