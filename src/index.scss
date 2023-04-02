@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/faktum-test');
+
+
+
+$color_1: #fff;
+$font-family_1: "Faktum test", sans-serif;
+$font-family_2: "Rubik", sans-serif;
+$background-color_1: #1f1e1e;
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: $background-color_1;
+}
+p {
+	color: $color_1;
+	font-family: $font-family_1;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+}
+span {
+	color: $color_1;
+	font-family: $font-family_1;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+}
+a {
+	color: $color_1;
+	font-family: $font-family_1;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+	text-decoration: none;
+}
+div {
+	color: $color_1;
+	font-family: $font-family_1;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+}
+h1 {
+	color: $color_1;
+	padding: 0;
+	margin: 0;
+	font-family: $font-family_2;
+}
+h3 {
+	color: $color_1;
+	padding: 0;
+	margin: 0;
+	font-family: $font-family_2;
+}
+h4 {
+	color: $color_1;
+	padding: 0;
+	margin: 0;
+	font-family: $font-family_2;
+}
+

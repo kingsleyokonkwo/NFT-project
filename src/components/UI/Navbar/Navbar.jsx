@@ -5,7 +5,7 @@ import diamond from "../../../data/diamond.png";
 import notification from "../../../data/notification.png";
 import US from "../../../data/US.png";
 import profile from "../../../data/profile.png";
-import classes from "./Navbar.module.css";
+import classes from "./Navbar.module.scss";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {

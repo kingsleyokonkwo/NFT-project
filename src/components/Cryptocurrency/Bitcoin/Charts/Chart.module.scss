@@ -1,0 +1,49 @@
+$background-color_1: #32343b;
+$background-color_2: #111218;
+
+.chart {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	h3 {
+		font-size: 24px;
+		font-weight: 800;
+	}
+}
+.interval {
+	height: 48px;
+	width: 285px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 25.6px;
+	background-color: $background-color_1;
+	span {
+		height: fit-content;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 6px 12px;
+		border-radius: 19.2px;
+	}
+}
+#first {
+	background-color: $background-color_2;
+}
+.bitcoin__information {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.history {
+	width: 58%;
+	h3 {
+		margin: 20px 0 8px 0;
+		font-size: 24px;
+		font-weight: 800;
+	}
+	p {
+		font-size: 16px;
+		font-weight: normal;
+	}
+}

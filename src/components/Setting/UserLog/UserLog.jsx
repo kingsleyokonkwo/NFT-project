@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./UserLog.module.css";
+import classes from "./UserLog.module.scss";
 import { userlogItems } from "../../../data/data";
 
 export default function UserLog() {

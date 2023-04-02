@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./VotedProject.module.css";
+import classes from "./VotedProject.module.scss";
 import star from "../../../data/yellow.png";
 import thumb from "../../../data/biglike.png";
 import twitter from "../../../data/twitter.png";

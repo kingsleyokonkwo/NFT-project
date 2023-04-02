@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Crypto.module.css";
+import classes from "./Crypto.module.scss";
 import { cryptoWatchList } from "../../data/data";
 import { NavLink } from "react-router-dom";
 

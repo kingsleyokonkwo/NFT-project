@@ -1,0 +1,60 @@
+$color_1: #fff;
+$background-color_1: #2c3137;
+$background-color_2: #474d57;
+
+.editProfile__container {
+	margin-top: 5px;
+	padding-top: 34px;
+	padding-bottom: 58px;
+	padding-left: 34px;
+	border-radius: 24px;
+	background-color: $background-color_1;
+}
+.formInput {
+	display: flex;
+	flex-direction: column;
+}
+.editprifile__navigation {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 40px;
+	h3 {
+		font-size: 21px;
+		font-weight: 800;
+	}
+	img {
+		height: 24px;
+		width: 24px;
+	}
+}
+.user__action {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 60px;
+}
+.editProfile__img {
+	margin-right: 25px;
+	height: 80px;
+	width: 80px;
+}
+.editProfile__input {
+	padding: 16px;
+	border-radius: 8px;
+	color: $color_1;
+	font-size: 16px;
+	font-weight: 500;
+	outline: none;
+	border: solid 1px #474d57;
+	background-color: $background-color_2;
+	margin-top: 8px;
+	margin-bottom: 24px;
+}
+input {
+	&::placeholder {
+		color: $color_1;
+		font-size: 16px;
+		font-weight: 500;
+	}
+}

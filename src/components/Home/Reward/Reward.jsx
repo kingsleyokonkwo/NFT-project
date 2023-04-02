@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // import GemContainer from './GemContainer'
 import NftReward from './NftReward'
 import Referral from '../Referral'
-import classes from "./Reward.module.css"
+import classes from "./Reward.module.scss"
 
 export default function Reward() {
   return (

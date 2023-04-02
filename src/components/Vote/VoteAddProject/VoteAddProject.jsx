@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
-import classes from "./VoteAddProject.module.css";
+import classes from "./VoteAddProject.module.scss";
 import arrow from "../../../data/arrow-left.png";
 import upload from "../../../data/upload.png";
 import photo from "../../../data/uploadimg.png";

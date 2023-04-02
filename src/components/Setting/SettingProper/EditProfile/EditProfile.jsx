@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./EditProfile.module.css";
+import classes from "./EditProfile.module.scss";
 import user from "../../../../data/user.png";
 import upload from "../../../../data/export.png";
 import profile from "../../../../data/Profilebig.png";

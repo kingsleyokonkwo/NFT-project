@@ -4,7 +4,7 @@ import map from "../../../data/map.png";
 import Chart from "./Charts/Chart";
 import Roadmap from "./Roadmap/Roadmap";
 import Review from "./Review/Review";
-import classes from "./Bitcoin.module.css";
+import classes from "./Bitcoin.module.scss";
 import ReviewIpad from "./Review/ReviewIpad";
 import BtcProps from "./BtcProps/BtcProps";
 import BtcPrice from "./BtcPrice/BtcPrice";

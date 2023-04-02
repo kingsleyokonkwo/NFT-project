@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../UI/Button/Button";
-import classes from './Form.module.css'
+import classes from './Form.module.scss'
 
 export default function Form(props) {
   return (

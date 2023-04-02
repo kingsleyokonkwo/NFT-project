@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./MainReward.module.css";
+import classes from "./MainReward.module.scss";
 import diamond from "../../data/diamond.png";
 import { mainReward } from "../../data/data";
 import Button from "../UI/Button/Button";

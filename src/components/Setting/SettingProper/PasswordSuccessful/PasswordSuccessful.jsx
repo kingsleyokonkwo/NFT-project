@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "./PasswordSuccessful.module.css"
+import classes from "./PasswordSuccessful.module.scss"
 import check from "../../../../data/bigcheck.png"
 import { Link } from 'react-router-dom'
 

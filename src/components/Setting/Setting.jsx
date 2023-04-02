@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ProfileParameters from "./SettingProper/ProfileParameter/ProfileParameters";
 import Referrals from "./Referrals/Referrals";
-import classes from "./Setting.module.css";
+import classes from "./Setting.module.scss";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import UserLog from "./UserLog/UserLog";
 import ChangePassword from './SettingProper/ChangePassword/ChangePassword'

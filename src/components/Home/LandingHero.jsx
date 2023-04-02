@@ -1,9 +1,7 @@
 import React from "react";
-import classes from "./Landing.module.css";
+import classes from "./Landing.module.scss";
 import diamond from "../../data/DiamondBig.png";
 import check from "../../data/check.png";
-import nftgrid from "../../data/nftgrid.png";
-import pink from "../../data/pink.png";
 import Reward from "./Reward/Reward";
 import Button from "../UI/Button/Button";
 

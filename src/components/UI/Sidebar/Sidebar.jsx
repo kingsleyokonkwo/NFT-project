@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import classes from "./Sidebar.module.css";
+import classes from "./Sidebar.module.scss";
 import logo from "../../../data/logo.png";
 import menu from "../../../data/menu.png";
 import { links } from "../../../data/data";

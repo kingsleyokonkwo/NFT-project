@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Roadmap.module.css";
+import classes from "./Roadmap.module.scss";
 
 export default function Roadmap() {
   return (

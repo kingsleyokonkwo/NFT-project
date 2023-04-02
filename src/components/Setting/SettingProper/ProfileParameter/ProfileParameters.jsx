@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./ProfileParameters.module.css";
+import classes from "./ProfileParameters.module.scss";
 import profile from "../../../../data/profile.png";
 import edit from "../../../../data/edit.png";
 import arrow from "../../../../data/arrow.png";

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import classes from "./MetaverseProjects.module.css";
+import classes from "./MetaverseProjects.module.scss";
 import leftarrow from "../../../data/leftarrow.png";
 import rightarrow from "../../../data/rightarrow.png";
 import { motion } from "framer-motion";

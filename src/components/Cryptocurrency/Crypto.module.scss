@@ -1,0 +1,217 @@
+$color_1: #10b981;
+$color_2: #ef4444;
+$background-color_1: #4b5768;
+$background-color_2: #2793ff;
+$background-color_3: #2c3137;
+
+.cryto__container {
+  margin: 50px 40px;
+
+  .crypto__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+    h3 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-right: 28px;
+    }
+
+    .crypto__all {
+      font-size: 16px;
+      font-weight: 600;
+      padding: 14px 12px;
+      border-radius: 100px;
+      height: 43px;
+      margin-right: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      cursor: pointer;
+      width: 48px;
+      background-color: $background-color_1;
+
+      &.active {
+        background-color: $background-color_2;
+      }
+    }
+
+    .crypto__watchlist {
+      font-size: 16px;
+      font-weight: 600;
+      padding: 14px 12px;
+      border-radius: 100px;
+      height: 43px;
+      margin-right: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      cursor: pointer;
+      width: 100px;
+      background-color: $background-color_1;
+
+      &.active {
+        background-color: $background-color_2;
+      }
+    }
+  }
+
+  .crypto__desc {
+    box-sizing: border-box;
+    background-color: $background-color_3;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 19px 30px 22px;
+    border-radius: 16px;
+    height: 62px;
+    margin-bottom: 21px;
+
+    &Hashtag {
+      margin-right: 90px;
+    }
+
+    &Name {
+      margin-right: 150px;
+    }
+
+    &Price {
+      margin-right: 11%;
+    }
+
+    &24 {
+      margin-right: 8%;
+    }
+
+    &Market {
+      margin-right: 95px;
+    }
+  }
+
+  .crypo__item {
+    box-sizing: border-box;
+    background-color: $background-color_3;
+    margin-bottom: 12px;
+    padding: 16px 30px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+
+    &Id {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  .crypto__detail {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    width: 150px;
+    margin-right: 70px;
+    margin-left: 60px;
+
+    &Img {
+      height: 40px;
+      width: 40px;
+      margin-right: 8px;
+    }
+  }
+
+  .coin__desc {
+    &Name {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &Short {
+      font-size: 12px;
+      font-weight: normal;
+    }
+  }
+
+  .crypto__itemPrice {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 12%;
+  }
+
+  .crypto__itemChange {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 9%;
+
+    &.gain {
+      color: $color_1;
+    }
+
+    &.loss {
+      color: $color_2;
+    }
+  }
+
+  .crypto__itemMarketPrice {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 7%;
+  }
+
+  .crypto__itemCryptoChart {
+    height: 56px;
+    width: 110px;
+    margin-right: 3%;
+  }
+}
+
+
+
+
+
+//MEDIA QUERY 1024px
+@media screen and (max-width: 1024px) {
+  .crypto__container {
+    padding: 15px 27px;
+  }
+  .crypto__title {
+    h3 {
+      font-size: 24px;
+    }
+  }
+  .hashtag {
+    margin-right: 48px;
+  }
+  .desc__name {
+    margin-right: 100px;
+  }
+  .desc__price {
+    margin-right: 9%;
+  }
+  .desc__24 {
+    margin-right: 8%;
+  }
+  .desc__market {
+    margin-right: 87px;
+  }
+  .crypto__detailImg {
+    height: 32px;
+    width: 32px;
+  }
+  .crypto__detail {
+    margin-left: 40px;
+    margin-right: 25px;
+    width: 120px;
+  }
+  .crypto__itemPrice {
+    margin-right: 9%;
+  }
+  .crypto__itemChange {
+    margin-right: 11.5%;
+  }
+  .crypto__itemMarketPrice {
+    margin-right: 5%;
+  }
+  .crypto__itemCryptoChart {
+    margin-right: 3%;
+  }
+}

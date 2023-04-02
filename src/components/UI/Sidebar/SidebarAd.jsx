@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './SidebarAd.module.css';
+import classes from './SidebarAd.module.scss';
 import trading from "../../../data/trading.png";
 import cancel from "../../../data/close-circle.png"
 import Button from "../Button/Button"

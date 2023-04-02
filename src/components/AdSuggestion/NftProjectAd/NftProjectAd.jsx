@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import classes from "./NftProjectAd.module.css";
+import classes from "./NftProjectAd.module.scss";
 import { motion } from "framer-motion";
 import heart from "../../../data/heart.png";
 import leftarrow from "../../../data/leftarrow.png";
@@ -17,24 +17,24 @@ export default function NftProjectAd() {
     return (
       <motion.div className={classes.projectAd__item} key={props.id}>
         <div className={classes.projectAd__top}>
-          <div className={classes.projectAd__images}>
+          <div className={classes.projectAd__topImages}>
             <img
-              className={classes.pojectAd__project1}
+              className={classes.projectAd__topImages1}
               src={props.project1}
               alt="profile"
             />
             <img
-              className={classes.pojectAd__project2}
+              className={classes.projectAd__topImages2}
               src={props.project2}
               alt="profile"
             />
             <img
-              className={classes.pojectAd__project3}
+              className={classes.projectAd__topImages3}
               src={props.project3}
               alt="profile"
             />
           </div>
-          <span className={classes.projectAd__like}>
+          <span className={classes.projectAd__topLike}>
             <img src={heart} alt="like" />
             194
           </span>

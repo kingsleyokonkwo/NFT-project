@@ -18,7 +18,7 @@ import {
   Vote,
   AddProject,
 } from "./pages";
-import classes from "./App.module.css";
+import classes from "./App.module.scss";
 
 function App() {
   const [activeMenu, setActiveMenu] = useState(true);

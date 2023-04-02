@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./TransactionHistory.module.css";
+import classes from "./TransactionHistory.module.scss";
 import { receivedItems, withdrawItems } from "../../../data/data";
 
 export default function TransactionHistory() {

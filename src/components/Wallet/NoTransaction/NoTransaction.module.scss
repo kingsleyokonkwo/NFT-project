@@ -1,0 +1,35 @@
+$color_1: #2793ff;
+
+.NT__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	img {
+		height: 100px;
+		width: 100px;
+		margin-bottom: 16px;
+	}
+	p {
+		font-size: 18px;
+		font-weight: normal;
+		margin: 0;
+		margin-bottom: 8px;
+	}
+}
+.seeCryptosLink {
+	color: $color_1;
+	font-size: 18px;
+	font-weight: 800;
+}
+@media screen and (max-width: 1024px) {
+	.NT__container {
+		p {
+			font-size: 16px;
+		}
+	}
+	.seeCryptosLink {
+		font-size: 16px;
+	}
+}

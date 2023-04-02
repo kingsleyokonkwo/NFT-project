@@ -1,7 +1,7 @@
 import React from "react";
 import coin from "../../../data/stacked-coin.png";
 import { Link } from "react-router-dom";
-import classes from './NoTransaction.module.css'
+import classes from './NoTransaction.module.scss'
 
 export default function NoTransaction() {
   return (

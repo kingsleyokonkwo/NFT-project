@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./VotePage.module.css";
+import classes from "./VotePage.module.scss";
 import { NavLink } from "react-router-dom";
 import like from "../../../data/thumbsup.png";
 import plus from "../../../data/add-circle.png";

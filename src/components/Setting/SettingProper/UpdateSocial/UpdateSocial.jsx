@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./UpdateSocial.module.css";
+import classes from "./UpdateSocial.module.scss";
 import arrow from "../../../../data/arrow-left.png";
 import check from "../../../../data/bigcheck.png";
 import cancel from "../../../../data/cancelbig.png";

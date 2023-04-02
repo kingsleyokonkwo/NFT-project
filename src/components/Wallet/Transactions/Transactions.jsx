@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { transactionItems } from "../../../data/data";
-import classes from "./Transaction.module.css";
+import classes from "./Transaction.module.scss";
 
 export default function Transactions() {
   const transactionList = (props) => {

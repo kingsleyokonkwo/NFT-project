@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Referrals.module.css";
+import classes from "./Referrals.module.scss";
 import diamond from "../../../data/diamond.png";
 import { referralList } from "../../../data/data";
 

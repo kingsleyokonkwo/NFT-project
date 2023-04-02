@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Reward.module.css";
+import classes from "./Reward.module.scss";
 import diamond from "../../../data/diamond.png";
 import arrow from "../../../data/arrow-right.png";
 import { nftReward } from "../../../data/data";

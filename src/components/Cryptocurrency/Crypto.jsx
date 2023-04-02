@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../UI/Button/Button";
-import classes from "./Crypto.module.css";
+import classes from "./Crypto.module.scss";
 import CryptoAll from "./CryptoAll";
 import WatchList from "./WatchList";
 
@@ -28,12 +28,12 @@ export default function Crypto() {
         </span>
       </div>
       <div className={classes.crypto__desc}>
-        <span className={classes.hashtag}>#</span>
-        <span className={classes.desc__name}>Name</span>
-        <span className={classes.desc__price}>Price</span>
-        <span className={classes.desc__24}>24h Change</span>
-        <span className={classes.desc__market}>Market Price</span>
-        <span className={classes.desc__chart}>Chart</span>
+        <span className={classes.crypto__descHashtag}>#</span>
+        <span className={classes.crypto__descName}>Name</span>
+        <span className={classes.crypto__descPrice}>Price</span>
+        <span className={classes.crypto__desc24}>24h Change</span>
+        <span className={classes.crypto__descMarket}>Market Price</span>
+        <span className={classes.crypto__descChart}>Chart</span>
       </div>
       {active === "crypto" && <CryptoAll />}
       {active === "watchlist" && <WatchList />}

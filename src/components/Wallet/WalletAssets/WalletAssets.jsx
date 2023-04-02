@@ -4,7 +4,7 @@ import withdraw from "../../../data/send-sqaure-2.png";
 import deposit from "../../../data/receive-square-2.png";
 import cancel from "../../../data/cancel.png";
 import { assets } from "../../../data/data";
-import classes from "./WalletAssets.module.css";
+import classes from "./WalletAssets.module.scss";
 
 export default function WalletAssets() {
   const [dropdown, setDropdown] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import classes from './Theme.module.css';
+import classes from './Theme.module.scss';
 import moon from "../../../data/moon.png"
 import sun from "../../../data/sun.png"
 

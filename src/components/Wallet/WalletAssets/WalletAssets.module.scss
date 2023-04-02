@@ -1,0 +1,91 @@
+$color_1: #a0abbb;
+$color_2: #EF4444;
+$color_3: #10B981;
+$background-color_1: #35373e;
+$background-color_2: #2c3137;
+
+.asset__items {
+	position: relative;
+}
+
+.asset__dropdown {
+	position: absolute;
+	right: 7%;
+	bottom: 23%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	padding: 16px;
+	justify-content: space-between;
+	height: 152px;
+	width: 140px;
+	border-radius: 8px;
+	background-color: $background-color_1;
+
+	span {
+		display: flex;
+		cursor: pointer;
+		img {
+			margin-right: 10px;
+		}
+	}
+}
+
+.asset__item {
+	padding: 20px 25px;
+	border-radius: 16px;
+	background-color: $background-color_2;
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.asset__detail {
+	display: flex;
+	flex-direction: column;
+	margin-right: 13.5%;
+	width: 50px;
+}
+
+.asset__img {
+	height: 40px;
+	width: 40px;
+	margin-right: 8px;
+}
+
+.asset__name {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.asset__short {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	color: $color_1;
+}
+
+.asset__balance {
+	font-size: 16px;
+	font-weight: 500;
+	margin-right: 17%;
+}
+
+.asset__change {
+	font-weight: 500;
+	font-stretch: normal;
+	margin-right: 13%;
+
+    &.loss {
+        color: $color_2;
+    }
+    &.gain {
+        color: $color_3;
+    }
+}
+
+.asset__price {
+	margin-right: 5%;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./ChangePassword.module.css";
+import classes from "./ChangePassword.module.scss";
 import arrow from "../../../../data/arrow-left.png";
 import eye from "../../../../data/eye.png";
 import Button from "../../../UI/Button/Button";

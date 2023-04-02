@@ -1,6 +1,6 @@
 import React from "react";
 import arrow from "../../data/arrow-right.png";
-import classes from "./DailyTask.module.css";
+import classes from "./DailyTask.module.scss";
 import { DailyTask } from "../../data/data";
 import Button from "../UI/Button/Button";
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./SuggestAds.module.css";
+import classes from "./SuggestAds.module.scss";
 import arrowback from "../../../../data/arrow-left.png";
 import CryptoForm from "../CryptoForm";
 import IcoForm from "../IcoForm";

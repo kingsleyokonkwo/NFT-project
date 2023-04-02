@@ -1,5 +1,5 @@
 import React from "react";
-import classes from"./AddSuggestions.module.css";
+import classes from"./AddSuggestions.module.scss";
 import { Link, NavLink } from "react-router-dom";
 import watch from "../../data/watch.png";
 import plus from "../../data/plus.png";

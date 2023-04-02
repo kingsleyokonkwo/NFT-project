@@ -1,0 +1,42 @@
+$color_1: #fff;
+$color_2: #2793ff;
+$background-color_1: #2c3137;
+
+form {
+	width: 389px;
+}
+
+.formInput {
+	display: flex;
+	flex-direction: column;
+}
+
+.cryptoinput {
+	padding: 16px;
+	border-radius: 8px;
+	color: $color_1;
+	font-size: 16px;
+	font-weight: 500;
+	outline: none;
+	border: solid 1px #35373e;
+	background-color: $background-color_1;
+	margin-top: 8px;
+	margin-bottom: 24px;
+}
+
+label {
+	font-size: 18px;
+	font-weight: normal;
+	color: $color_1;
+	p {
+		margin: 0;
+	}
+}
+
+.label__url {
+	font-size: 14px;
+	span {
+		font-weight: bold;
+		color: $color_2;
+	}
+}

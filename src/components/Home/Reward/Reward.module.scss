@@ -1,0 +1,181 @@
+$color_1: #fff;
+$background-color_1: #2c3137;
+$background-color_2: #2793ff;
+
+.reward__container {
+	flex: 1;
+	margin-top: 30px;
+	display: flex;
+}
+.reward__gem {
+	flex: 2;
+	margin-right: 16px;
+}
+.reward__title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 16px;
+	h3 {
+		font-weight: 800;
+		font-size: 24px;
+	}
+}
+.view__all {
+	color: $color_1;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.gemcard__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 31px;
+}
+.card__content {
+	background-color: $background-color_1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 180px;
+	width: 160px;
+	padding: 25px;
+	border-radius: 16px;
+	box-sizing: border-box;
+	&:nth-child(1) {
+		background-color: $background-color_2;
+	}
+	h4 {
+		font-size: 16px;
+		font-weight: 800;
+		margin-bottom: 16px;
+	}
+	img {
+		height: 47px;
+		width: 48px;
+		margin-bottom: 16px;
+	}
+}
+.nftReward {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-bottom: 20px;
+}
+.nftReward__ipad {
+	display: none;
+}
+.reward__content {
+	box-sizing: border-box;
+	height: 300px;
+	width: 31%;
+	padding: 0px, 0px, 25px, 0px;
+	border-radius: 16px;
+	background-color: $background-color_1;
+	box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.4);
+	h4 {
+		margin: 0;
+		font-size: 16px;
+		font-weight: 800;
+		padding-left: 8px;
+	}
+}
+.nft__img {
+	width: 100%;
+	height: 135px;
+	margin-bottom: 16px;
+}
+.desc {
+	font-size: 12px;
+	font-weight: 400;
+	padding: 8px;
+	margin: 0;
+}
+.reward__price {
+	display: flex;
+	align-items: center;
+	height: 27px;
+	margin-top: 0;
+	p {
+		margin-right: 10px;
+		padding: 0;
+		font-size: 16px;
+		font-weight: 500;
+	}
+}
+.reward__market {
+	padding: 0 8px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+.reward__amount {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+	background: #1e2329;
+	height: 27px;
+	width: 69px;
+	box-sizing: border-box;
+	padding: 3px;
+	border-radius: 8px;
+	p {
+		font-size: 16px;
+		font-weight: 500;
+	}
+	img {
+		height: 14px;
+		width: 14px;
+	}
+}
+.reward__supply {
+	display: flex;
+	flex-direction: column;
+	height: 30px;
+	p {
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+		font-weight: 400;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.reward__container {
+		flex-direction: column;
+	}
+	.nftReward {
+		display: none;
+	}
+	.nftReward__ipad {
+		display: initial;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px;
+		margin-bottom: 20px;
+	}
+	.reward__content {
+		width: 23.5%;
+		height: 366px;
+	}
+	.nft__img {
+		height: 161px;
+	}
+	.desc {
+		font-size: 10px;
+	}
+	.reward__market {
+		flex-direction: column-reverse;
+		gap: 24px;
+	}
+	.reward-btn {
+		img {
+			display: none;
+		}
+		border-radius: 12px;
+		padding: 14px 29px;
+		margin-bottom: 37.7px;
+	}
+}

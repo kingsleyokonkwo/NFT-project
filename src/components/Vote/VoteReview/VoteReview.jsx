@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './VoteReview.module.css'
+import classes from './VoteReview.module.scss'
 import { reviews } from "../../../data/data";
 
 export default function VoteReview() {

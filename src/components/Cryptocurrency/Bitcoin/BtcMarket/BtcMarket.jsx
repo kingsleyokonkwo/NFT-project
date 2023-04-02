@@ -1,7 +1,7 @@
 import React from "react";
 import greenangle from "../../../../data/greenangle.png";
 import redangle from "../../../../data/redangle.png";
-import classes from './BtcMarket.module.css'
+import classes from './BtcMarket.module.scss'
 
 export default function BtcMarket() {
   return (

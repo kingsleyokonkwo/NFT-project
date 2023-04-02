@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Modal.css"
+import "./Modal.module.scss"
 import arrow from "../data/arrow-right.png"
 import nft from "../data/nft3.png"
 import diamond from "../data/diamond.png"

@@ -1,0 +1,106 @@
+$background-color_1: #2793ff;
+$background-color_2: #e61b00;
+
+.bitcoin__container {
+	margin: 35px 35px 35px 40px;
+	display: flex;
+}
+.bitcoin__details {
+	flex: 2;
+	margin-right: 19px;
+}
+.btc__detail {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 47px;
+}
+.bitcoin__infoTitle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+	margin: auto;
+	position: relative;
+}
+.review__button {
+	display: none;
+}
+.overview__header {
+	display: flex;
+}
+.overview {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	position: relative;
+	img {
+		height: 24px;
+		width: 24px;
+		margin-right: 12px;
+	}
+	h3 {
+		font-weight: 600;
+		font-size: 18px;
+	}
+}
+.horizontal-line {
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 32px;
+	border: 1px solid #4b5768;
+}
+.straight__line {
+	position: absolute;
+	bottom: -8px;
+	margin: 0;
+	margin-top: 14px;
+	border-radius: 10px 10px 0 0;
+	width: 130%;
+	height: 4px;
+	background-color: $background-color_1;
+	border: none;
+}
+.review {
+	flex: 1;
+}
+@media screen and (max-width: 1024px) {
+	.btc__detail {
+		margin-bottom: 0;
+	}
+	.review__button {
+		display: initial;
+		position: absolute;
+		right: -50%;
+		cursor: pointer;
+	}
+	.review__btnInner {
+		position: relative;
+		background-color: $background-color_1;
+		border-radius: 24px;
+		p {
+			margin: 0;
+		}
+	}
+	.review__btnReview {
+		font-weight: 700;
+		font-size: 16px;
+		padding: 8px 18px;
+	}
+	.review__btnNumber {
+		position: absolute;
+		top: -2px;
+		right: -2px;
+		font-size: 10px;
+		font-weight: 500;
+		background-color: $background-color_2;
+		border: 1px solid #fff;
+		height: 12px;
+		width: 12px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+	}
+}

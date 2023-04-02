@@ -1,7 +1,7 @@
 import React from "react";
 import chart from "../../../../data/chart.png";
 import BtcStats from "../BtcStats/BtcStats";
-import classes from "./Chart.module.css";
+import classes from "./Chart.module.scss";
 
 export default function Chart() {
   return (

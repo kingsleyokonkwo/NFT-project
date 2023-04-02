@@ -3,7 +3,7 @@ import withdraw from "../../data/withdraw.png";
 import deposit from "../../data/deposit-logo.png";
 import btc from "../../data/btc.png";
 import info from "../../data/info.png";
-import classes from "./Wallet.module.css";
+import classes from "./Wallet.module.scss";
 import WalletAssets from "./WalletAssets/WalletAssets";
 import NoTransaction from "./NoTransaction/NoTransaction";
 import Transactions from "./Transactions/Transactions";

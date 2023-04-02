@@ -1,0 +1,150 @@
+$color_1: #fff;
+$background-color_1: #2793ff;
+$background-color_2: #610bef;
+
+.adsuggestion__inner {
+	margin: 50px 45px;
+}
+
+.featured__ads {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 29px;
+}
+
+.featured__adsH3 {
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.featured__adsBtns {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.ad__boxes {
+	display: flex;
+	gap: 15px;
+}
+
+.ad__boxBig {
+	flex: 2;
+	border-radius: 24px;
+	background-image: url('../../data/bell.png');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: $background-color_1;
+}
+
+.big__boxContent {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 38px;
+	width: 50%;
+	h3 {
+		font-size: 1.8rem;
+		font-weight: 800;
+		margin-top: 40px;
+		margin-bottom: 1rem;
+	}
+	p {
+		font-size: 16px;
+		font-weight: normal;
+		margin: 0;
+		margin-bottom: 1rem;
+	}
+}
+
+.ad__readmoreLink {
+	text-decoration: underline;
+	font-size: 16px;
+	font-weight: 800;
+	color: $color_1;
+}
+
+.ad__boxSmall {
+	flex: 1;
+	box-sizing: border-box;
+	width: 355px;
+	height: 397px;
+	padding: 32.6px 30px 0 0px;
+	border-radius: 24px;
+	background-color: $background-color_2;
+	background-image: url('../../data/desk.png');
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	h3 {
+		font-size: 24px;
+		font-weight: 800;
+		margin-bottom: .9rem;
+		padding-left: 30px;
+	}
+	p {
+		font-size: 14px;
+		font-weight: normal;
+		margin: 0;
+		margin-bottom: 5px;
+		padding-left: 30px;
+	}
+}
+
+
+//MEDIA QUERY FOR 1024px
+@media screen and (max-width: 1024px) {
+	.featured-ads-h3 {
+		font-size: 24px;
+	}
+
+	.status-btn {
+		font-size: 14px;
+		img {
+			height: 16px;
+			width: 16px;
+		}
+	}
+
+	.suggest-btn {
+		font-size: 14px;
+		img {
+			height: 16px;
+			width: 16px;
+		}
+	}
+
+	.ad__boxBig {
+		height: 275px;
+	}
+
+	.big__boxContent {
+		height: 0;
+		width: 60%;
+		margin-top: 110px;
+		h3 {
+			font-size: 24px;
+		}
+		p {
+			font-size: 14px;
+		}
+		
+	}
+
+	.ad__readmoreLink {
+		font-size: 14px;
+	}
+	
+	.ad__boxSmall {
+		p {
+			font-size: 14px;
+		}
+		height: 289px;
+		h3 {
+			font-size: 21px;
+		}
+	}
+}

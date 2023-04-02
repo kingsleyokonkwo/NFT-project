@@ -1,7 +1,7 @@
 import React from "react";
 import greenangle from "../../../../data/greenangle.png";
 import arrowdown from "../../../../data/arrow-down.png";
-import classes from './BtcPrice.module.css'
+import classes from './BtcPrice.module.scss'
 
 export default function BtcPrice() {
   return (
@@ -18,12 +18,12 @@ export default function BtcPrice() {
       </div>
       <div className={classes.range}>
         <input type="range" min="0" max="100" value="65" id={classes.slider} />
-        <div className={classes.selector}>
-          <div className={classes.selectBtn}></div>
+        <div className={classes.range__selector}>
+          <div className={classes.range__selectorBtn}></div>
         </div>
       </div>
       <span className={classes.time__span}>
-        24 Hr <img className={classes.btclink__arrow} src={arrowdown} alt="arrow" />
+        24 Hr <img className={classes.time__spanArrow} src={arrowdown} alt="arrow" />
       </span>
     </div>
   );

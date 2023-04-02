@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Review.module.css";
+import classes from "./Review.module.scss";
 import { reviews } from "../../../../data/data";
 import Button from "../../../UI/Button/Button";
 

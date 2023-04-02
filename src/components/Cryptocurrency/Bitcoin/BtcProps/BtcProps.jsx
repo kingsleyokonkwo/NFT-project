@@ -2,7 +2,7 @@ import React from 'react'
 import btc from "../../../../data/btcbig.png";
 import share from "../../../../data/share.png";
 import { btcLinks } from "../../../../data/data";
-import classes from './BtcProps.module.css'
+import classes from './BtcProps.module.scss'
 
 export default function BtcProps() {
     const btcLink = (props) => {
@@ -19,9 +19,9 @@ export default function BtcProps() {
   return (
     <div className={classes.btc__prop}>
             <div className={classes.btc__name}>
-              <div className={classes.btc__logo}>
+              <div className={classes.btc__nameLogo}>
                 <img src={btc} alt="btc logo" />
-                <div className={classes.btc__logoOnline}></div>
+                <div className={classes.btc__nameLogoOnline}></div>
               </div>
               <div>
                 <div className={classes.bitcoin__name}>

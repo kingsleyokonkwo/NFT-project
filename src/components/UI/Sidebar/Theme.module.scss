@@ -1,0 +1,46 @@
+$background-color_1: #808191;
+$background-color_2: #1E2329;
+
+.theme__toggle {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	background-color: $background-color_1;
+	border-radius: 25px;
+	height: 48px;
+}
+.dark__theme {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 3px;
+	padding: 15px 20px;
+	cursor: pointer;
+	background-color: $background-color_2;
+	border-radius: 25px;
+	width: 50%;
+	p {
+		font-size: 14px;
+		font-weight: 600;
+	}
+}
+.light__theme {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 3px;
+	padding: 15px 20px;
+	cursor: pointer;
+	p {
+		font-size: 14px;
+		font-weight: 600;
+	}
+}
+.moon {
+	height: 16px;
+	width: 16px;
+}
+.sun {
+	height: 16px;
+	width: 16px;
+}

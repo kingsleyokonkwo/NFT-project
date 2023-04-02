@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./AddSuggestionStatus.module.css";
+import classes from "./AddSuggestionStatus.module.scss";
 import arrowback from "../../../data/arrow-left.png";
 import { suggestionStatus } from "../../../data/data";
 import { NavLink } from "react-router-dom";

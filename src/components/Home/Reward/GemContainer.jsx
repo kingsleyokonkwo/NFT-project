@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Reward.module.css";
+import classes from "./Reward.module.scss";
 import { gems } from "../../../data/data";
 
 export default function GemContainer() {

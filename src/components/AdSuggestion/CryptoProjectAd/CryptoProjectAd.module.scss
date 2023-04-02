@@ -1,0 +1,107 @@
+$color_1: transparent;
+$background-color_1: #2c3137;
+
+.cryptoAd__container {
+  margin-left: 45px;
+  margin-bottom: 72px;
+
+  .cryptoAd__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-right: 45px;
+    h3 {
+      font-weight: 800;
+      font-size: 24px;
+    }
+
+    .cryptoAd__arrows {
+      display: flex;
+      gap: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  .cryptoAd__carousel {
+    overflow: hidden;
+    cursor: grab;
+
+    .cryptoAd__carouselInner {
+      display: flex;
+      gap: 16px;
+      height: 145px;
+      align-items: flex-end;
+
+      .cryptoAd__item {
+        box-sizing: border-box;
+        position: relative;
+        width: 25%;
+        min-width: 220.7px;
+        height: 126.7px;
+        padding: 41.5px 12.4px 22.8px 23px;
+        border-radius: 23.7px;
+        background-color: $background-color_1;
+
+        .cryptoAd__top {
+          position: absolute;
+          transform: translate(-65%);
+          top: -15%;
+          left: 53%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          p {
+            margin: 0;
+            font-size: 12px;
+            font-weight: 800;
+          }
+          img {
+            pointer-events: none;
+          }
+        }
+
+        .cryptoAd__info {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 35px;
+          p {
+            font-size: 10px;
+            font-weight: 500;
+            margin: 0;
+          }
+          h3 {
+            font-size: 12px;
+            font-weight: 800;
+            background-image: linear-gradient(109deg, #43cbff 0%, #9708cc 100%);
+            background-clip: text;
+            color: $color_1;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+//MEDIA QUERY 1024px
+@media screen and (max-width: 1024px) {
+  .cryptoAd__top {
+    img {
+      height: 47.5px;
+      width: 47.5px;
+    }
+    top: -10%;
+  }
+  .cryptoAd__arrows {
+    display: none;
+  }
+  .cryptoAd__title {
+    h3 {
+      font-size: 21px;
+    }
+  }
+}

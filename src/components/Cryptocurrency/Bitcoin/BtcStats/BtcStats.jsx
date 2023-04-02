@@ -1,7 +1,7 @@
 import React from "react";
 import redangle from "../../../../data/redangle.png";
 import greenangle from "../../../../data/greenangle.png";
-import classes from "./BtcStats.module.css";
+import classes from "./BtcStats.module.scss";
 import Button from "../../../UI/Button/Button";
 
 export default function BtcStats() {

@@ -1,7 +1,7 @@
 import React from "react";
 import { notificationData } from "../../data/data";
 import bell from "../../data/bellbig.png";
-import classes from "./Notification.module.css";
+import classes from "./Notification.module.scss";
 
 export default function Notification() {
   const notificationItem = (props) => {
