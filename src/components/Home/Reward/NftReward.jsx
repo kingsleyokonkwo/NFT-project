@@ -9,9 +9,9 @@ export default function NftReward() {
   const nftRewardCard = (props) => {
     return (
       <div className={classes.reward__content}>
-        <img className={classes.nft__img} src={props.img} alt="reward" />
+        <img className={classes.reward__contentImg} src={props.img} alt="reward" />
         <h4>{props.title}</h4>
-        <p className={classes.desc}>{props.desc}</p>
+        <p className={classes.reward__contentDesc}>{props.desc}</p>
         <div className={classes.reward__market}>
           <div className={classes.reward__price}>
             <p>Price:</p>

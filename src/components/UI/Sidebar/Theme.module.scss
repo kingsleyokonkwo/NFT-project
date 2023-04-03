@@ -1,46 +1,89 @@
 $background-color_1: #808191;
-$background-color_2: #1E2329;
+$background-color_2: #1e2329;
 
 .theme__toggle {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 30px;
-	background-color: $background-color_1;
-	border-radius: 25px;
-	height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: $background-color_1;
+  border-radius: 25px;
+  height: 48px;
+
+  &Dark {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: $background-color_2;
+    border-radius: 25px;
+    width: 50%;
+    p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &Moon {
+      height: 16px;
+      width: 16px;
+    }
+  }
+
+  &Light {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+    p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &Sun {
+      height: 16px;
+      width: 16px;
+    }
+  }
 }
-.dark__theme {
-	display: flex;
-	align-items: center;
-	gap: 12px;
-	margin: 3px;
-	padding: 15px 20px;
-	cursor: pointer;
-	background-color: $background-color_2;
-	border-radius: 25px;
-	width: 50%;
-	p {
-		font-size: 14px;
-		font-weight: 600;
-	}
-}
-.light__theme {
-	display: flex;
-	align-items: center;
-	gap: 12px;
-	margin: 3px;
-	padding: 15px 20px;
-	cursor: pointer;
-	p {
-		font-size: 14px;
-		font-weight: 600;
-	}
-}
-.moon {
-	height: 16px;
-	width: 16px;
-}
-.sun {
-	height: 16px;
-	width: 16px;
+
+
+
+//MEDIA QUERY 1024px
+@media screen and (max-width: 1024px) {
+  .theme__toggle {
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 30px;
+    gap: 8px;
+    height: 32px;
+    width: 75px;
+
+    &Dark {
+      padding: 0;
+      margin: 2px;
+      width: 37px;
+      p {
+        display: none;
+      }
+
+      &Moon {
+        margin: auto;
+      }
+    }
+
+    &Light {
+      padding: 0;
+      p {
+        display: none;
+      }
+
+      &Sun {
+        margin: auto;
+      }
+    }
+  }
 }

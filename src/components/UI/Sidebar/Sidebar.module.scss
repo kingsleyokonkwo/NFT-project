@@ -13,33 +13,39 @@ use react scroll and rap the inner div */
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
-}
-.hamburger {
-  cursor: pointer;
-}
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  h3 {
-    font-size: 20px;
-    font-weight: 800;
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    h3 {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    &Logo {
+      height: 22px;
+      width: 26px;
+    }
+  }
+
+  &__hamburger {
+    cursor: pointer;
   }
 }
-.logo {
-  height: 22px;
-  width: 26px;
-}
+
 .sidebar__items {
   margin: 0;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+
+  .links {
+    margin-top: 25px;
+  }
 }
-.links {
-  margin-top: 25px;
-}
-.link__item {
+
+.links__item {
   margin-bottom: 5px;
   display: flex;
   align-items: center;
@@ -52,26 +58,32 @@ use react scroll and rap the inner div */
   &:hover {
     background: rgba(71, 77, 87, 0.3);
   }
+
+  &Icon {
+    height: 24px;
+    width: 24px;
+    opacity: 1;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  &Name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
 }
-.link__item.active {
-  background: #474d57;
-}
-.link__icon {
-  height: 24px;
-  width: 24px;
-  opacity: 1;
-}
-.link__icon.active {
-  opacity: 1;
-}
-.link__name {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  opacity: 0.8;
-}
+
+
+
+
+
+//MEDIA QUERY 1024px
 @media screen and (max-width: 1024px) {
-  .brand {
+  .header__brand {
     margin: auto;
     h3 {
       display: none;
@@ -80,13 +92,21 @@ use react scroll and rap the inner div */
   .hamburger {
     display: none;
   }
-  .link__item {
+  .links__item {
     box-sizing: border-box;
     width: 52px;
     height: 52px;
     margin: auto;
     padding: 10px;
     margin-bottom: 6px;
+
+    &Icon {
+      margin: auto;
+    }
+
+    &Name {
+      display: none;
+    }
   }
   .link__icon {
     margin: auto;
@@ -94,40 +114,5 @@ use react scroll and rap the inner div */
   .link__name {
     display: none;
   }
-  .theme-toggle {
-    box-sizing: border-box;
-    justify-content: flex-start;
-    margin: auto;
-    margin-top: 30px;
-    gap: 8px;
-    height: 32px;
-    width: 75px;
-  }
-  .dark-theme {
-    padding: 0;
-    margin: 2px;
-    width: 37px;
-    p {
-      display: none;
-    }
-  }
-  .light-theme {
-    padding: 0;
-    p {
-      display: none;
-    }
-  }
-  .moon {
-    height: 16px;
-    width: 16px;
-    margin: auto;
-  }
-  .sun {
-    height: 16px;
-    width: 16px;
-    margin: auto;
-  }
-  .advert {
-    display: none;
-  }
+
 }

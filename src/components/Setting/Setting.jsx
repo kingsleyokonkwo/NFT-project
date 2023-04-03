@@ -16,7 +16,7 @@ export default function Setting() {
     <div className={classes.setting__container}>
       <div className={classes.setting__inner}>
         <h3 className={classes.setting__innerh3}>Setting</h3>
-        <span className={classes.setting__title}>
+        <span className={classes.setting__innerSpan}>
           <div className={classes.setting__header}>
             <p
               onClick={() => {

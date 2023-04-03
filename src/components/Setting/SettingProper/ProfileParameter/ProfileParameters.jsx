@@ -10,8 +10,8 @@ import { NavLink } from "react-router-dom";
 export default function ProfileParameters() {
   return (
     <div className={classes.ProfileParameters}>
-      <div className={classes.profileinfo__container}>
-        <div className={classes.profileinfo__containerInner}>
+      <div className={classes.ProfileParameters__container}>
+        <div className={classes.ProfileParameters__containerInner}>
           <div className={classes.profile}>
             <img src={profile} alt="A display" />
             <div className={classes.profile__detail}>

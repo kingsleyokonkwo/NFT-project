@@ -6,7 +6,7 @@ export default function UserLog() {
   const userlogItem = (props) => {
     return (
       <div className={classes.userlog__item} key={props.name}>
-        <div className={classes.userlog__details}>
+        <div className={classes.userlog__itemDetails}>
           <div className={classes.userlog__green}></div>
           <div className={classes.userlog__detail}>
             <p className={classes.userlog__name}>{props.name}</p>

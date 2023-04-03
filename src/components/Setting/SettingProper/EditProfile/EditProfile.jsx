@@ -23,10 +23,10 @@ export default function EditProfile() {
           <img src={upload} alt="upload icon" />
           Upload Photo
         </Button>
-        <button className="editProfile-reset-btn">
+        <Button className="editProfile-reset-btn">
           <img src={user} alt="user icon" />
           Default Reset
-        </button>
+        </Button>
       </div>
       <form onSubmit={handleSubmit}>
         <div className={classes.formInput}>

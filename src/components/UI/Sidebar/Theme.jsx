@@ -6,12 +6,12 @@ import sun from "../../../data/sun.png"
 export default function Theme() {
   return (
     <div className={classes.theme__toggle}>
-      <div className={classes.dark__theme}>
-        <img className={classes.moon} src={moon} alt="moon logo" />
+      <div className={classes.theme__toggleDark}>
+        <img className={classes.theme__toggleDarkMoon} src={moon} alt="moon logo" />
         <p>Dark</p>
       </div>
-      <div className={classes.light__theme}>
-        <img className={classes.sun} src={sun} alt="sun logo" />
+      <div className={classes.theme__toggleLight}>
+        <img className={classes.theme__toggleLightSun} src={sun} alt="sun logo" />
         <p>Light</p>
       </div>
     </div>

@@ -13,32 +13,32 @@ export default function Navbar() {
     <div className={classes.nav__container}>
       <div className={classes.nav__search}>
         <img src={search} alt="search-icon" />
-        <input className={classes.nav__input} placeholder="Search Here" />
+        <input className={classes.nav__searchInput} placeholder="Search Here" />
       </div>
       <div className={classes.nav__items}>
-        <div className={classes.verify}>
+        <div className={classes.nav__itemsVerify}>
           <img src={verified} alt="verified logo" />
           <p>Go Business</p>
         </div>
-        <div className={classes.diamond}>
+        <div className={classes.nav__itemsDiamond}>
           <img src={diamond} alt="diamond logo" />
           <p>100</p>
         </div>
-        <div className={classes.notification}>
+        <div className={classes.nav__itemsNotification}>
           <NavLink to="/notifications">
             <img src={notification} alt="notification icon" />
-            <div className={classes.red}></div>
+            <div className={classes.nav__itemsNotificationRed}></div>
           </NavLink>
         </div>
-        <div className={classes.eng}>
+        <div className={classes.nav__itemsEng}>
           <img src={US} alt="USA flag" />
           <p>USD</p>
         </div>
-        <div className={classes.profile}>
+        <div className={classes.nav__itemsProfile}>
           <img src={profile} alt="profile" />
           <div className={classes.profile__detail}>
-            <p className={classes.username}>John Doe</p>
-            <p className={classes.user__mail}>johndoe@email.com</p>
+            <p className={classes.profile__detailUsername}>John Doe</p>
+            <p className={classes.profile__detailMail}>johndoe@email.com</p>
           </div>
         </div>
       </div>

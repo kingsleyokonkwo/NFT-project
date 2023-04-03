@@ -3,79 +3,90 @@ $background-color_2: #2793ff;
 
 .setting__container {
   margin: 45px;
-}
-.setting__inner {
-  width: 80%;
-}
-.setting__innerh3 {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 25px;
-}
-.setting__title {
-  display: flex;
-  gap: 64px;
-  padding: 23px;
-  border-radius: 8px;
-  background-color: $background-color_1;
-  margin-bottom: 28px;
-  position: relative;
-}
-.setting__header {
-  p {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
+
+  .setting__inner {
+    width: 80%;
+
+    &h3 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 25px;
+    }
+
+    &Span {
+      display: flex;
+      gap: 64px;
+      padding: 23px;
+      border-radius: 8px;
+      background-color: $background-color_1;
+      margin-bottom: 28px;
+      position: relative;
+
+      .setting__header {
+        p {
+          margin: 0;
+          font-size: 18px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+        hr {
+          margin: 0;
+         
+        }
+        .personalInfo__line {
+          position: absolute;
+          bottom: 0;
+          height: 4px;
+          background-color: $background-color_2;
+          border: none;
+          border-radius: 8px 8px 0 0;
+          width: 210px;
+          left: 1%;
+          transform: translateX(-1%);
+        }
+        .transaction__line {
+          position: absolute;
+          bottom: 0;
+          height: 4px;
+          background-color: $background-color_2;
+          border: none;
+          border-radius: 8px 8px 0 0;
+          width: 200px;
+          left: 395px;
+          transform: translateX(-66%);
+        }
+
+        .user__line {
+          position: absolute;
+          bottom: 0;
+          height: 4px;
+          background-color: $background-color_2;
+          border: none;
+          border-radius: 8px 8px 0 0;
+          width: 120px;
+          left: 520px;
+          transform: translateX(-25%);
+        }
+        .referral__line {
+          position: absolute;
+          bottom: 0;
+          height: 4px;
+          background-color: $background-color_2;
+          border: none;
+          border-radius: 8px 8px 0 0;
+          width: 120px;
+          left: 660px;
+          transform: translateX(-20%);
+        }
+      }
+    }
   }
-  hr {
-    margin: 0;
-  }
 }
-.personalInfo__line {
-  position: absolute;
-  bottom: 0;
-  height: 4px;
-  background-color: $background-color_2;
-  border: none;
-  border-radius: 8px 8px 0 0;
-  width: 210px;
-  left: 1%;
-  transform: translateX(-1%);
-}
-.transaction__line {
-  position: absolute;
-  bottom: 0;
-  height: 4px;
-  background-color: $background-color_2;
-  border: none;
-  border-radius: 8px 8px 0 0;
-  width: 200px;
-  left: 395px;
-  transform: translateX(-70%);
-}
-.user__line {
-  position: absolute;
-  bottom: 0;
-  height: 4px;
-  background-color: $background-color_2;
-  border: none;
-  border-radius: 8px 8px 0 0;
-  width: 120px;
-  left: 520px;
-  transform: translateX(-30%);
-}
-.referral__line {
-  position: absolute;
-  bottom: 0;
-  height: 4px;
-  background-color: $background-color_2;
-  border: none;
-  border-radius: 8px 8px 0 0;
-  width: 120px;
-  left: 660px;
-  transform: translateX(-30%);
-}
+
+
+
+
+//MEDIA QUERY 1024px
 @media screen and (max-width: 1024px) {
   .setting__inner {
     width: 100%;

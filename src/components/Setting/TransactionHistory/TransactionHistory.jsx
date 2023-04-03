@@ -41,14 +41,14 @@ export default function TransactionHistory() {
 
   return (
     <div className={classes.TransactionHistory__container}>
-      <div className={classes.received__container}>
+      <div className={classes.TransactionHistory__containerReceived}>
         <h3 className={classes.TransactionHistory__title}>Received</h3>
         <div className={classes.received__transactions}>
           {receivedItems.map(receivedList)}
         </div>
       </div>
 
-      <div className={classes.withdraw__container}>
+      <div className={classes.TransactionHistory__containerWithdraw}>
         <h3 className={classes.TransactionHistory__title}>Withdraw</h3>
         <div className={classes.received__transactions}>
           {withdrawItems.map(withdrawList)}

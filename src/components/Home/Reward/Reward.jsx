@@ -9,7 +9,7 @@ export default function Reward() {
   return (
     <div className={classes.reward__container}>
         <div className={classes.reward__gem}>
-            <div className={classes.reward__title}>
+            <div className={classes.reward__gemTitle}>
                 <h3>Your Sapphire Rewards</h3>
                 <Link to="/rewards" className={classes.view__all}>View all Rewards</Link>
             </div>

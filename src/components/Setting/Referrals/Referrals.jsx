@@ -28,11 +28,11 @@ export default function Referrals() {
   return (
     <div className={classes.Referrals__container}>
       <div className={classes.referral__recent}>
-        <h3 className={classes.referral__time}>Today</h3>
+        <h3 className={classes.referral__recentTime}>Today</h3>
         {referralList.map(referralItems)}
       </div>
-      <div className={classes.referral__later}>
-        <h3 className={classes.referral__time}>Aug 26th</h3>
+      <div className={classes.referral__recent}>
+        <h3 className={classes.referral__recentTime}>Aug 26th</h3>
         {referralList.slice(3).map(referralItems)}
       </div>
     </div>

@@ -23,7 +23,7 @@ export default function VoteAddProject() {
       <form onSubmit={handleSubmit}>
         <div className={classes.voteaddProject__form}>
           <label>Project Name</label>
-          <input className={classes.voteaddProject__input} type="text" />
+          <input className={classes.voteaddProject__formInput} type="text" />
         </div>
         <div className={classes.voteaddProject__form}>
           <label>About Project</label>
@@ -31,7 +31,7 @@ export default function VoteAddProject() {
         </div>
         <div className={classes.voteaddProject__form}>
           <label>Smart Contract Address </label>
-          <input className={classes.voteaddProject__input} type="text" />
+          <input className={classes.voteaddProject__formInput} type="text" />
         </div>
         <div className={classes.voteaddProject__form}>
           <label>
@@ -40,7 +40,7 @@ export default function VoteAddProject() {
               URL e.g <span>https://aliens.com/nft/create</span>
             </p>
           </label>
-          <input className={classes.voteaddProject__input} type="text" />
+          <input className={classes.voteaddProject__formInput} type="text" />
         </div>
         <p className={classes.photoUpload__p}>Project Photo Upload</p>
         <p className={classes.photosize}>Photo must not be greater than 5mb</p>
@@ -62,7 +62,7 @@ export default function VoteAddProject() {
               URL e.g <span>https://aliens.com/nft/create</span>
             </p>
           </label>
-          <input className={classes.voteaddProject__input} type="text" />
+          <input className={classes.voteaddProject__formInput} type="text" />
         </div>
         <div className={classes.voteaddProject__form}>
           <label>
@@ -71,7 +71,7 @@ export default function VoteAddProject() {
               URL e.g <span>https://aliens.com/nft/create</span>
             </p>
           </label>
-          <input className={classes.voteaddProject__input} type="text" />
+          <input className={classes.voteaddProject__formInput} type="text" />
         </div>
         <button className="suggestForm-btn">Suggest Ads</button>
       </form>

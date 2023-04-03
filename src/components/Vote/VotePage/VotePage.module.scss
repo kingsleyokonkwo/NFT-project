@@ -3,12 +3,14 @@ $background-color_1: #1e2329;
 .votepage__container {
 	display: flex;
 }
+
 .voteProject__page {
 	width: 285.8px;
 	height: 1100px;
 	border-right: 1px solid rgba(255, 255, 255, .32);
 	background-color: $background-color_1;
 }
+
 .voteProject__title {
 	display: flex;
 	align-items: center;
@@ -16,11 +18,14 @@ $background-color_1: #1e2329;
 	padding: 29px 15px 16px;
 	border-bottom: 1px solid rgba(255, 255, 255, .32);
 	margin-bottom: 6px;
+
+	&H3 {
+		font-size: 21px;
+		font-weight: 800;
+	}
 }
-.voteProject__titleH3 {
-	font-size: 21px;
-	font-weight: 800;
-}
+
+
 .addProjects {
 	display: flex;
 	align-items: center;
@@ -29,9 +34,11 @@ $background-color_1: #1e2329;
 	font-weight: normal;
 	cursor: pointer;
 }
+
 .voteContent__page {
 	flex: 3;
 }
+
 .voteContent__zero {
 	height: 95vh;
 	display: flex;
@@ -47,6 +54,7 @@ $background-color_1: #1e2329;
 		text-align: center;
 	}
 }
+
 .voteNft__container {
 	display: flex;
 	align-items: center;
@@ -55,6 +63,7 @@ $background-color_1: #1e2329;
 	border-bottom: 1px solid rgba(255, 255, 255, .2);
 	margin-bottom: 8px;
 }
+
 .morehover {
 	display: flex;
 	align-items: center;

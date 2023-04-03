@@ -7,61 +7,69 @@ $background-color_2: #474d57;
   height: 350px;
   box-sizing: border-box;
   border-radius: 24px;
-  h3 {
-    font-size: 21px;
-    font-weight: 800;
-    padding-left: 5px;
-    margin: 0;
-    margin-bottom: 35px;
+
+  .referral__link {
+    h3 {
+      font-size: 21px;
+      font-weight: 800;
+      padding-left: 5px;
+      margin: 0;
+      margin-bottom: 35px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      background-color: $background-color_2;
+      height: 50px;
+      padding: 0 9px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-right: 15px;
+        margin: 0;
+      }
+      img {
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .referral__or {
+    text-align: center;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    h4 {
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+
+    .socials {
+      &:nth-child(3) {
+        margin-right: 0;
+      }
+      img {
+        margin-right: 16px;
+        cursor: pointer;
+      }
+    }
   }
 }
-.referral__or {
-  text-align: center;
-}
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  p {
-    font-weight: 500;
-    font-size: 18px;
-  }
-  h4 {
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 24px;
-  }
-}
-.link {
-  display: flex;
-  align-items: center;
-  background-color: $background-color_2;
-  height: 50px;
-  padding: 0 9px;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  p {
-    font-size: 14px;
-    font-weight: 500;
-    margin-right: 15px;
-    margin: 0;
-  }
-  img {
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
-  }
-}
-.socials {
-  &:nth-child(3) {
-    margin-right: 0;
-  }
-  img {
-    margin-right: 16px;
-    cursor: pointer;
-  }
-}
+
+
+
+//MEDIA QUERY 1024px
 @media screen and (max-width: 1024px) {
   .referral__container {
     box-sizing: border-box;
@@ -75,16 +83,19 @@ $background-color_2: #474d57;
       margin-bottom: 0;
     }
   }
+
   .contact {
     h4 {
       margin-bottom: 8px;
     }
   }
+
   .referral__link {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
+  
   .socials {
     img {
       height: 40px;

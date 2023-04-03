@@ -29,122 +29,135 @@ $background-color_5: #f87171;
     width: 19px;
     color: $color_1;
   }
-}
-.nav__input {
-  width: 100%;
-  border: none;
-  padding: 0.3rem;
-  height: 2rem;
-  font-size: 1rem;
-  background-color: $background-color_3;
-  color: $color_1;
-  outline: none;
-  &::placeholder {
+
+  &Input {
+    width: 100%;
+    border: none;
+    padding: 0.3rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: $background-color_3;
     color: $color_1;
+    outline: none;
+    &::placeholder {
+      color: $color_1;
+    }
   }
 }
+
 .nav__items {
   display: flex;
   align-items: center;
-}
-.verify {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  padding: 5px 8px;
-  background: #000;
-  border-radius: 8px;
-  margin-right: 20px;
-  height: 37px;
-  width: 130px;
-  img {
-    height: 16px;
-    width: 16px;
-    margin-right: 8px;
-  }
-  p {
-    font-weight: 400;
-    font-size: 14px;
-    opacity: 0.8;
-  }
-}
-.diamond {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  padding: 5px 8px;
-  border-radius: 100px;
-  margin-right: 20px;
-  height: 37px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  img {
-    height: 16px;
-    width: 16px;
-    background-color: $background-color_4;
-    padding: 2px;
-    border-radius: 50%;
-    margin-right: 3px;
-  }
-}
-.notification {
-  position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  padding: 3px;
-  height: 27px;
-  margin-right: 20px;
-  img {
-    height: 27px;
-    width: 27px;
-  }
-}
-.red {
-  position: absolute;
-  height: 9px;
-  width: 9px;
-  background-color: $background-color_5;
-  border-radius: 50%;
-  top: 5%;
-  right: 20%;
-}
-.eng {
-  display: flex;
-  align-items: center;
-  img {
-    height: 15px;
-    padding-right: 10px;
-    border-right: 1px solid #fff;
-  }
-  p {
-    font-size: 12px;
-    font-weight: 600;
-    margin-left: 10px;
+
+  &Verify {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    background: #000;
+    border-radius: 8px;
     margin-right: 20px;
+    height: 37px;
+    width: 130px;
+    img {
+      height: 16px;
+      width: 16px;
+      margin-right: 8px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  }
+
+  &Diamond {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 100px;
+    margin-right: 20px;
+    height: 37px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    img {
+      height: 16px;
+      width: 16px;
+      background-color: $background-color_4;
+      padding: 2px;
+      border-radius: 50%;
+      margin-right: 3px;
+    }
+  }
+
+  &Notification {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    padding: 3px;
+    height: 27px;
+    margin-right: 20px;
+    img {
+      height: 27px;
+      width: 27px;
+    }
+
+    &Red {
+      position: absolute;
+      height: 9px;
+      width: 9px;
+      background-color: $background-color_5;
+      border-radius: 50%;
+      top: 5%;
+      right: 20%;
+    }
+  }
+
+  &Eng {
+    display: flex;
+    align-items: center;
+    img {
+      height: 15px;
+      padding-right: 10px;
+      border-right: 1px solid #fff;
+    }
+    p {
+      font-size: 12px;
+      font-weight: 600;
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+  }
+
+  &Profile {
+    display: flex;
+    align-items: center;
+    img {
+      height: 40px;
+      width: 40px;
+      margin-right: 4px;
+    }
+
+    .profile__detail {
+      &Username {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      &Mail {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0;
+        opacity: 0.6;
+      }
+    }
   }
 }
-.profile {
-  display: flex;
-  align-items: center;
-  img {
-    height: 40px;
-    width: 40px;
-    margin-right: 4px;
-  }
-}
-.profile__detaill {
-  line-height: 0.1;
-}
-.username {
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0;
-}
-.user__mail {
-  font-size: 12px;
-  font-weight: 400;
-  margin: 0;
-  opacity: 0.6;
-}
+
+
+
+//MEDIA QUERY FOR 1024px
 @media screen and (max-width: 1024px) {
   .nav__search {
     width: 217px;

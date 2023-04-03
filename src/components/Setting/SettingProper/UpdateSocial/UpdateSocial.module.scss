@@ -10,6 +10,7 @@ $background-color_3: #1e2329;
 	border-radius: 24px;
 	background-color: $background-color_1;
 }
+
 .updateSocial__navigation {
 	display: flex;
 	align-items: center;
@@ -24,10 +25,12 @@ $background-color_3: #1e2329;
 		width: 24px;
 	}
 }
+
 .updateSocial__inner {
 	padding: 20px;
 	padding-top: 0;
 }
+
 .followUs {
 	margin: 0;
 	margin-top: 0;
@@ -36,12 +39,14 @@ $background-color_3: #1e2329;
 	width: 350px;
 	margin-bottom: 10px;
 }
+
 .social__logos {
 	display: flex;
 	align-items: center;
 	gap: 9px;
 	margin-bottom: 50px;
 }
+
 .social__logo {
 	padding: 12px 11px;
 	border-radius: 100px;
@@ -55,6 +60,7 @@ $background-color_3: #1e2329;
 		width: 22px;
 	}
 }
+
 .updatesocial__link {
 	box-sizing: border-box;
 	width: 467px;
@@ -73,6 +79,7 @@ $background-color_3: #1e2329;
 		font-weight: normal;
 	}
 }
+
 .updateLink__img {
 	display: flex;
 	align-items: center;
@@ -85,6 +92,7 @@ $background-color_3: #1e2329;
 		width: 21px;
 	}
 }
+
 .updateSocial__status {
 	height: 32px;
 	width: 32px;

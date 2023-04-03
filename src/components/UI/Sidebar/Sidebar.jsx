@@ -16,14 +16,14 @@ export default function Sidebar(props) {
   return (
     <div className={classes.sidebar__inner}>
       <div className={classes.header}>
-        <Link to="/" className={classes.brand}>
-          <img className="logo" src={logo} alt="logo" />
+        <Link to="/" className={classes.header__brand}>
+          <img className={classes.header__brandLogo} src={logo} alt="logo" />
           <h3>Cryptooes</h3>
         </Link>
         <img
           src={menu}
           alt="menu"
-          className={classes.hamburger}
+          className={classes.header__hamburger}
           onClick={props.handleMenu}
         />
       </div>
@@ -34,14 +34,14 @@ export default function Sidebar(props) {
             <div key={item.name}>
               <NavLink
                 to={`/${item.name}`}
-                className={`${classes.link__item } `}
+                className={`${classes.links__item } `}
               >
                 <img
-                  className={classes.link__icon}
+                  className={classes.links__itemIcon}
                   src={item.logo}
                   alt="icon"
                 />
-                <p className={classes.link__name}>{item.name}</p>
+                <p className={classes.links__itemName}>{item.name}</p>
               </NavLink>
             </div>
           ))}

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function PasswordSuccessful() {
   return (
     <div className={classes.PasswordSuccessful__container}>
-        <div className={classes.PasswordSuccessful__inner}>
+        <div className={classes.PasswordSuccessful__containerInner}>
             <img src={check} alt="succesful" />
             <p>Your Password has been Successfully Changed</p>
             <Link to="/settings" className={classes.PasswordSuccessful__link}>Back to Settings</Link>

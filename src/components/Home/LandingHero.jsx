@@ -10,7 +10,7 @@ export default function LandingHero() {
     <div className={classes.landing__container}>
       <div className={classes.landing__hero}>
         <div className={classes.balance}>
-          <p className={classes.account__bal}>Account balance</p>
+          <p className={classes.balance__account}>Account balance</p>
           <div className={classes.balance__detail}>
             <img src={diamond} alt="diamond icon" />
             <h3>36</h3>
@@ -25,7 +25,7 @@ export default function LandingHero() {
         <div
           className={classes.get__started}
         >
-          <h3 className={classes.getStarted__landing}>
+          <h3 className={classes.get__startedLanding}>
             Get Started with Cryptocurrency
           </h3>
           <Button>List Nft Project</Button>
